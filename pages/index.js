@@ -19,9 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Image className="heroBg" src={bg} alt="logo" />
         <div className="mainWrapper">
           <section class="hero">
-            <Image className="heroBg" src={bg} alt="logo" />
             <Image className="heroBgLogo" src={logo} alt="logo" />
             <div className="lCont">
               <div className="title">Experiences that matter.</div>
