@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import bg from "../res/heroBG.png";
 import logo from "../res/logo.png";
 import image1 from "../res/g1.png";
 import image2 from "../res/g2.png";
@@ -18,8 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section class="hero">
-          <div className="mainWrapper">
+        <div className="mainWrapper">
+          <section class="hero">
+            <Image className="heroBg" src={bg} alt="logo" />
             <Image className="heroBgLogo" src={logo} alt="logo" />
             <div className="lCont">
               <div className="title">Experiences that matter.</div>
@@ -39,8 +41,8 @@ export default function Home() {
               <Image className="gridItems" src={image5} alt="logo" />
               <Image className="gridItems" src={image6} alt="logo" />
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
     </>
   );
