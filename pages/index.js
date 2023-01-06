@@ -8,6 +8,7 @@ import image3 from "../res/g3.png";
 import image4 from "../res/g4.png";
 import image5 from "../res/g5.png";
 import image6 from "../res/g6.png";
+import Carousel from "../components/Home/Carousel";
 
 export default function Home() {
   return (
@@ -41,6 +42,10 @@ export default function Home() {
               <Image className="gridItems" src={image5} alt="logo" />
               <Image className="gridItems" src={image6} alt="logo" />
             </div>
+          </section>
+
+          <section className="aSection">
+            <Carousel />
           </section>
         </div>
       </main>

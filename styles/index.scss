@@ -1,11 +1,13 @@
 html, body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
     --font: "Poppins", sans-serif;
     --background: white;
     --accent: #31b3b1;
+    --text: #222222;
     --sub-text: #7b7b7b;
 }
 
