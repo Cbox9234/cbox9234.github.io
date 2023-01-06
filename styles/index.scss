@@ -13,3 +13,14 @@ html, body {
     font-family: var(--font);
 }
 
+
+.mainWrapper {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    background: var(--background);
+}

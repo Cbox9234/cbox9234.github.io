@@ -2,12 +2,13 @@
     display: flex;
     gap: 1rem;
     align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0;
-    width: calc(100vw - 6rem);
+    width: calc(100vw - 2rem);
     height: 2.5rem;
     background: var(--background);
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     box-shadow: 0 5px 20px -5px rgb(0 0 0 / 7%);
 
     .logo {
@@ -49,7 +50,7 @@
         .title {
             position: relative;
             cursor: pointer;
-            font-size: .8rem;
+            font-size: .9rem;
 
             &::after {
                 pointer-events: none;
