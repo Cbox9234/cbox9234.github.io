@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Image from "next/image";
+import logo from "../res/logo.png";
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
       </Head>
       <main>
         <section class="hero">
-          <div className="wrapper">
+          <div className="mainWrapper">
+            <Image className="heroBgLogo" src={logo} alt="logo" />
             <div className="lCont">
               <div className="title">Experiences that matter.</div>
               <div className="subTitle">

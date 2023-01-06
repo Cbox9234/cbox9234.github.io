@@ -5,7 +5,8 @@ section.hero {
     padding: 1rem;
     background: rgb(3, 52, 59);
     min-width: calc(100% - 2rem);
-    min-height: calc(100vh - 15rem);
+    height: calc(100vh - 15rem);
+    max-height: 500px;
 
     display: flex;
     align-items: center;
@@ -19,17 +20,27 @@ section.hero {
         width: 100%;
     }
 
+    .heroBgLogo {
+        pointer-events: none;
+        position: absolute;
+        left: -50%;
+        // transform: translateX(50%);
+        filter: brightness(0) invert(1);
+        opacity: .1;
+
+    }
+
     .title {
         color: white;
-        font-size: 2.7rem;
+        font-size: 3rem;
         font-weight: 600;
-        width: 18rem;
+        width: 22rem;
         line-height: 4rem;
     }
 
     .subTitle {
         color: white;
-        font-size: .8rem;
+        font-size: .9rem;
         letter-spacing: .8px;
         width: 42ch;
     }
@@ -41,7 +52,7 @@ section.hero {
     }
     .heroBtn {
         border: none;
-        padding: .35rem 1rem;
+        padding: .5rem 1.3rem;
         border-radius: 100px;
         font-weight: 700;
     }
