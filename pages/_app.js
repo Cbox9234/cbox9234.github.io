@@ -3,6 +3,7 @@ import "../styles/nav.scss";
 import "../styles/home.scss";
 import "../styles/carousel.scss";
 import "../styles/companyNews.scss";
+import "../styles/partnership.scss";
 import "remixicon/fonts/remixicon.css";
 
 import { Poppins } from "@next/font/google";
