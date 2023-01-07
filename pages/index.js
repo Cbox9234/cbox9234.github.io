@@ -9,6 +9,7 @@ import image4 from "../res/g4.png";
 import image5 from "../res/g5.png";
 import image6 from "../res/g6.png";
 import Carousel from "../components/Home/Carousel";
+import CompanyNews from "../components/Home/CompanyNews";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
           <section className="aSection">
             <Carousel />
           </section>
+          <CompanyNews />
         </div>
       </main>
     </>
