@@ -11,6 +11,7 @@ import image6 from "../res/g6.png";
 import Carousel from "../components/Home/Carousel";
 import CompanyNews from "../components/Home/CompanyNews";
 import Partnership from "../components/Home/Partnership";
+import Contact from "../components/Home/Contact";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
           </section>
           <CompanyNews />
           <Partnership />
+          <Contact />
         </div>
       </main>
     </>
