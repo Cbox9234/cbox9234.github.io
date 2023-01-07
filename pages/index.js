@@ -12,6 +12,7 @@ import Carousel from "../components/Home/Carousel";
 import CompanyNews from "../components/Home/CompanyNews";
 import Partnership from "../components/Home/Partnership";
 import Contact from "../components/Home/Contact";
+import Partner from "../components/Home/Partner";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
           </section>
           <CompanyNews />
           <Partnership />
+          <Partner />
           <Contact />
         </div>
       </main>
