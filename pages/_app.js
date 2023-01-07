@@ -6,6 +6,7 @@ import "../styles/companyNews.scss";
 import "../styles/partnership.scss";
 import "../styles/contact.scss";
 import "../styles/partners.scss";
+import "../styles/faq.scss";
 import "remixicon/fonts/remixicon.css";
 
 import { Poppins } from "@next/font/google";

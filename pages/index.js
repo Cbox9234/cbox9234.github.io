@@ -13,6 +13,7 @@ import CompanyNews from "../components/Home/CompanyNews";
 import Partnership from "../components/Home/Partnership";
 import Contact from "../components/Home/Contact";
 import Partner from "../components/Home/Partner";
+import FAQ from "../components/Home/FAQ";
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
           <Partnership />
           <Partner />
           <Contact />
+          <FAQ />
         </div>
       </main>
     </>
