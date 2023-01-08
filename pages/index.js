@@ -17,6 +17,7 @@ import FAQ from "../components/Home/FAQ";
 import Users from "../components/Home/Users";
 import Footer from "../components/Footer/Footer";
 import LegionExperiences from "../components/Home/LegionExperiences";
+import ScopedItems from "../components/Home/ScopedItems";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
               <Image className="gridItems" src={image6} alt="logo" />
             </div>
           </section>
+          <ScopedItems />
 
           <section className="aSection">
             <Carousel />
