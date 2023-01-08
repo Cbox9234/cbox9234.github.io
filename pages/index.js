@@ -15,6 +15,7 @@ import Contact from "../components/Home/Contact";
 import Partner from "../components/Home/Partner";
 import FAQ from "../components/Home/FAQ";
 import Users from "../components/Home/Users";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
           <Contact />
           <FAQ />
           <Users />
+          <Footer />
         </div>
       </main>
     </>
