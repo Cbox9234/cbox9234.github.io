@@ -5,8 +5,8 @@ export default function Contact() {
     <section className="aSection contact">
       <div className="title">Get in touch with us</div>
       <div className="info">
-        Make an inquiry with us, we'll get back to you within a few business
-        days.
+        Make an inquiry with us, we&apos;ll get back to you within a few
+        business days.
       </div>
       <button>Contact Us</button>
       <video
