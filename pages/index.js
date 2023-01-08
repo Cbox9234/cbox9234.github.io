@@ -31,7 +31,7 @@ export default function Home() {
       <main>
         <Image className="heroBg" src={bg} alt="logo" />
         <div className="mainWrapper">
-          <section class="hero">
+          <section className="hero">
             <Image className="heroBgLogo" src={logo} alt="logo" />
             <div className="lCont">
               <div className="title">Experiences that matter.</div>
