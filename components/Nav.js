@@ -4,6 +4,7 @@ import Logo from "../res/logo.png";
 import Image from "next/image";
 import NavItem from "./Nav/NavItem";
 import NavDetails from "./Nav/NavDetails";
+import ProductsDetails from "./Nav/ProductsDetails";
 
 export default function Nav() {
   return (
@@ -14,7 +15,7 @@ export default function Nav() {
           LEGiON Platfoms
         </div>
         <div className="links">
-          <NavItem title="Products" ExpandedElem={<NavDetails />} />
+          <NavItem title="Products" ExpandedElem={<ProductsDetails />} />
           <NavItem title="Company" ExpandedElem={<NavDetails />} />
           <NavItem title="Resources" ExpandedElem={<NavDetails />} />
           {/* <NavItem title="Careers" ExpandedElem={<NavDetails />} /> */}
