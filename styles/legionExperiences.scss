@@ -1,0 +1,129 @@
+section.legionexperiences {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding: 2.5rem 0rem !important;
+    padding-top: 2rem !important;
+    color: white;
+    width: 100%;
+
+    &:after {
+        position: absolute;
+        content: '';
+        background: #011145;
+        inset: 0;
+        width: 100vw;
+        height: 100%;
+        margin: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .title {
+        color: white !important;
+        text-align: center;
+        font-size: 3rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px;
+    }
+
+    .info {
+        color: white;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+        letter-spacing: .5px;
+    }
+
+
+    @mixin white-gradient {
+        background: linear-gradient(to right,  #011145 0%,rgba(255,255,255,0) 100%);
+    }
+    
+    $animationSpeed: 20s;
+    
+    // Animation
+    @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-17rem * 6 + 5.5rem))}
+    }
+    
+    
+    // Styling
+    .slider {
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+        margin: auto;
+        overflow:hidden;
+        position: relative;
+        width: calc(100% - 2rem);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+        &::before,
+        &::after {
+            @include white-gradient;
+            content: "";
+            height: 100%;
+            position: absolute;
+            width: 200px;
+            z-index: 2;
+        }
+        
+        &::after {
+            right: 0;
+            top: 0;
+            transform: rotateZ(180deg);
+        }
+    
+        &::before {
+            left: 0;
+            top: 0;
+        }
+        
+        .slide-track {
+            animation: scroll $animationSpeed linear infinite;
+            display: flex;
+            width: calc(16rem * 12);
+            height: 9rem;
+            gap: 1rem;
+        }
+        
+        .slide {
+            width: 16rem;
+            height: 9rem;
+            border-radius: 7px;
+            overflow: hidden;
+
+            img {
+                width: 16rem;
+                height: 9rem;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .slider2 {
+        margin-top: .5rem;
+
+        .slide-track {
+            animation: scroll $animationSpeed 1.7s linear infinite;
+        }
+    }
+
+
+    button {
+        padding: .7rem 1.7rem;
+        border: none;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+
+
+}
+
+

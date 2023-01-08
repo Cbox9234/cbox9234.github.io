@@ -16,6 +16,7 @@ import Partner from "../components/Home/Partner";
 import FAQ from "../components/Home/FAQ";
 import Users from "../components/Home/Users";
 import Footer from "../components/Footer/Footer";
+import LegionExperiences from "../components/Home/LegionExperiences";
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
             <Carousel />
           </section>
           <CompanyNews />
+          <LegionExperiences />
           <Partnership />
           <Partner />
           <Contact />
