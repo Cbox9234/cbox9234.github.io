@@ -14,6 +14,7 @@ import Partnership from "../components/Home/Partnership";
 import Contact from "../components/Home/Contact";
 import Partner from "../components/Home/Partner";
 import FAQ from "../components/Home/FAQ";
+import Users from "../components/Home/Users";
 
 export default function Home() {
   return (
@@ -57,6 +58,7 @@ export default function Home() {
           <Partner />
           <Contact />
           <FAQ />
+          <Users />
         </div>
       </main>
     </>
