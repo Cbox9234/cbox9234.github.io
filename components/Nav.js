@@ -3,8 +3,10 @@ import Search from "./Search";
 import Logo from "../res/logo.png";
 import Image from "next/image";
 import NavItem from "./Nav/NavItem";
-import NavDetails from "./Nav/NavDetails";
+// import NavDetails from "./Nav/NavDetails";
 import ProductsDetails from "./Nav/ProductsDetails";
+import CompanyDetails from "./Nav/CompanyDetails";
+import ResourcesDetails from "./Nav/ResourcesDetails";
 
 export default function Nav() {
   return (
@@ -16,8 +18,8 @@ export default function Nav() {
         </div>
         <div className="links">
           <NavItem title="Products" ExpandedElem={<ProductsDetails />} />
-          <NavItem title="Company" ExpandedElem={<NavDetails />} />
-          <NavItem title="Resources" ExpandedElem={<NavDetails />} />
+          <NavItem title="Company" ExpandedElem={<CompanyDetails />} />
+          <NavItem title="Resources" ExpandedElem={<ResourcesDetails />} />
           {/* <NavItem title="Careers" ExpandedElem={<NavDetails />} /> */}
         </div>
         <div className="right-bar">
