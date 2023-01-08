@@ -55,9 +55,9 @@ export default function Home() {
           <section className="aSection">
             <Carousel />
           </section>
+          <Partnership />
           <CompanyNews />
           <LegionExperiences />
-          <Partnership />
           <Partner />
           <Contact />
           <FAQ />
