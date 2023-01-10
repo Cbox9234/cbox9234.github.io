@@ -47,8 +47,10 @@
         font-weight: 500;
         align-items: center;
         margin-left: 1rem;
+        transition: color 200ms;
 
         &:hover {
+            font-weight: 700;
             &:nth-child(1) {
                 color: rgb(49, 34, 255);
             }
