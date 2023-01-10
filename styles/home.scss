@@ -25,14 +25,13 @@ main {
 
 section.hero {
     margin-top: 1.2rem;
-    padding: 1rem 0rem;
-    min-width: calc(100% - 0rem);
+    padding: 1rem 1rem;
+    min-width: calc(100% - 1rem);
     height: calc(100vh - 15rem);
     max-height: 400px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     z-index: 1;
 
     .heroBgLogo {
@@ -47,15 +46,16 @@ section.hero {
 
     .title {
         color: white;
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-weight: 600;
         width: 22rem;
-        line-height: 4rem;
+        line-height: 4.5rem;
+        margin-bottom: .5rem;
     }
 
     .subTitle {
         color: white;
-        font-size: .9rem;
+        font-size: 1.1rem;
         letter-spacing: .8px;
         width: 42ch;
     }
@@ -70,6 +70,8 @@ section.hero {
         padding: .5rem 1.3rem;
         border-radius: 100px;
         font-weight: 700;
+        min-width: 8rem;
+        font-size: 1.1rem;
     }
 
 
@@ -80,8 +82,8 @@ section.hero {
         gap: .5rem;
 
         & > img {
-            width: 7rem;
-            height: 7rem;
+            width: 8rem;
+            height: 8rem;
             object-fit: cover;
             border-radius: 7px;
             box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.158);
