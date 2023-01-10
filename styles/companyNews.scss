@@ -25,10 +25,9 @@
             grid-column: 1 / span 1;
             overflow: hidden;
             padding: 1rem;
-            z-index: -1;
+            z-index: 1;
             display: flex;
             align-items: flex-end;
-            
 
             img {
                 position: absolute;
@@ -37,6 +36,13 @@
                 height: 100%;
                 object-fit: cover;
                 z-index: -1;
+                transition: transform 700ms ease;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.05);
+                }
             }
 
             .news-title {
@@ -62,6 +68,11 @@
             display: flex;
             justify-content: space-between;
             overflow: hidden;
+            transition: transform 400ms;
+
+            &:hover {
+                transform: scale(1.03);
+            }
 
             img {
                 width: 10rem;
@@ -83,6 +94,11 @@
                 .news-title {
                     line-height: 1.4rem;
                     max-width: 18ch;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
 
                 .news-type {
