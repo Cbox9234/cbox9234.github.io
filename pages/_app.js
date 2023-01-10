@@ -1,5 +1,6 @@
 import "../styles/index.scss";
 import "../styles/nav.scss";
+import "../styles/search.scss";
 import "../styles/footer.scss";
 import "../styles/home.scss";
 import "../styles/carousel.scss";

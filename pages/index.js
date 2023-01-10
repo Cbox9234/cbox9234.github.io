@@ -18,6 +18,7 @@ import Users from "../components/Home/Users";
 import Footer from "../components/Footer/Footer";
 import LegionExperiences from "../components/Home/LegionExperiences";
 import ScopedItems from "../components/Home/ScopedItems";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Nav />
       <main>
         <Image className="heroBg" src={bg} alt="logo" />
         <div className="mainWrapper">

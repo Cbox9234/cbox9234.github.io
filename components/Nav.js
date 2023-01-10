@@ -1,4 +1,3 @@
-import React from "react";
 import Search from "./Search";
 import Logo from "../res/logo.png";
 import Image from "next/image";
@@ -24,7 +23,9 @@ export default function Nav() {
         </div>
         <div className="right-bar">
           <Search />
-          <div className="nav-btn">Contact</div>
+          <div className="nav-btn" onClick={() => console.log("Hi")}>
+            Contact
+          </div>
         </div>
       </div>
     </div>

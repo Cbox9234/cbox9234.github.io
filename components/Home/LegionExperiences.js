@@ -25,29 +25,29 @@ export default function LegionExperiences() {
     <section className="aSection legionexperiences">
       <div className="title">LEGiON Experiences</div>
       <div className="info">Quality experiences, available for everyone</div>
-      <div class="slider">
-        <div class="slide-track">
+      <div className="slider">
+        <div className="slide-track">
           {listOfGames.map((item, index) => (
-            <div key={index} class="slide">
+            <div key={index} className="slide">
               <img src={item} alt="photo"></img>
             </div>
           ))}
           {listOfGames.map((item, index) => (
-            <div key={index} class="slide">
+            <div key={index} className="slide">
               <img src={item} alt="photo"></img>
             </div>
           ))}
         </div>
       </div>
-      <div class="slider slider2">
-        <div class="slide-track">
+      <div className="slider slider2">
+        <div className="slide-track">
           {listOfGames2.map((item, index) => (
-            <div key={index} class="slide">
+            <div key={index} className="slide">
               <img src={item} alt="photo"></img>
             </div>
           ))}
           {listOfGames2.map((item, index) => (
-            <div key={index} class="slide">
+            <div key={index} className="slide">
               <img src={item} alt="photo"></img>
             </div>
           ))}
