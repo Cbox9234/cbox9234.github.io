@@ -1,4 +1,6 @@
 .partners {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -22,7 +24,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
+        gap: 3rem;
 
 
         .partner-item {
