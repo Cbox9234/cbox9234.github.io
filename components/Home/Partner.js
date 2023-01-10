@@ -1,7 +1,7 @@
 import React from "react";
 import poki from "../../res/partners/poki.png";
 import frvr from "../../res/partners/frvr.png";
-import krunker from "../../res/partners/krunker.png";
+import krunker from "../../res/partners/krunker2.png";
 import yendis from "../../res/partners/yendis.png";
 import Image from "next/image";
 
@@ -19,7 +19,7 @@ export default function Partner() {
           <Image src={frvr} alt="Frvr" />
         </div>
         <div className="partner-item">
-          <Image src={poki} alt="Krunker" />
+          <Image src={krunker} alt="Krunker" />
         </div>
         <div className="partner-item">
           <Image src={yendis} alt="Yendis" />
