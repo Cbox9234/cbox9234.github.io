@@ -87,6 +87,15 @@ footer {
                 font-weight: 600;
                 letter-spacing: .7px;
                 font-size: .85rem;
+                transition: color 300ms, transform 300ms;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                &:active {
+                    transform: scale(.9);
+                }
             }
         }
     }
@@ -102,19 +111,25 @@ footer {
             flex-direction: column;
 
             .header {
+                font-size: 1.1rem;
                 font-weight: 600;
                 letter-spacing: .6px;
             }
 
             .referenceHolder {
-                margin-top: .2rem;
+                margin-top: .3rem;
                 display: flex;
                 flex-direction: column;
                 gap: .5rem;
-                font-size: .75rem;
-                letter-spacing: .4px;
+                font-size: .8rem;
+                letter-spacing: .3px;
                 font-weight: 500;
                 opacity: .9;
+
+                & > *:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
             }
 
             &.social {
@@ -125,6 +140,16 @@ footer {
                 display: flex;
                 gap: .7rem;
                 font-size: 1.8rem;
+
+                .icon {
+                    transition: color 300ms, transform 300ms;
+                }
+
+                .icon:hover {
+                    cursor: pointer;
+                    color: rgb(73, 73, 73);
+                    transform: translateY(-.3rem);
+                }
 
                 .twitter {
                     color: #1D9BF0;

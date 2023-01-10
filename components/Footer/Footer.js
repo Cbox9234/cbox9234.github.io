@@ -25,9 +25,9 @@ export default function Footer() {
         <section className="footerSection social">
           <div className="header">Social Media</div>
           <div className="socialMedia">
-            <i className="ri-twitter-fill twitter"></i>
-            <i className="ri-youtube-fill youtube"></i>
-            <i className="ri-discord-fill discord"></i>
+            <i className="ri-twitter-fill twitter icon"></i>
+            <i className="ri-youtube-fill youtube icon"></i>
+            <i className="ri-discord-fill discord icon"></i>
           </div>
           <div className="mainLogoCont">
             <Image src={logo} alt="logo" />
