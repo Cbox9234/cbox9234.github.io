@@ -12,6 +12,9 @@ import "../styles/faq.scss";
 import "../styles/users.scss";
 import "../styles/legionExperiences.scss";
 import "../styles/scopedItems.scss";
+import "../styles/TermsOfService/index.scss";
+import "../styles/TermsOfService/hero.scss";
+import "../styles/TermsOfService/tab.scss";
 import "remixicon/fonts/remixicon.css";
 
 import { Poppins } from "@next/font/google";

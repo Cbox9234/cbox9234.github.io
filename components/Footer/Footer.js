@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import logo from "../../res/logo.png";
+import { useRouter } from "next/router";
 
 export default function Footer() {
+  const router = useRouter();
   return (
     <footer>
       <div className="footerHero">
@@ -54,7 +56,9 @@ export default function Footer() {
         <section className="footerSection">
           <div className="header">Legal</div>
           <div className="referenceHolder">
-            <div>Terms of service</div>
+            <div onClick={() => router.push("/terms_of_service")}>
+              Terms of service
+            </div>
             <div>Privacy</div>
             <div>GDPR</div>
           </div>
