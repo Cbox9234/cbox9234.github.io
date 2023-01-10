@@ -1,3 +1,14 @@
+@keyframes revealFromTop {
+    0% {
+        transform: translateY(-1rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .nav {
     display: flex;
     gap: 1rem;
@@ -80,6 +91,7 @@
             padding: 1rem;
             padding-top: 1rem;
             border-radius: 5px;
+            animation: revealFromTop 200ms ease-in-out 1 forwards;
             // background: red;
             
             .wrapper {
