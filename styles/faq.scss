@@ -52,6 +52,7 @@
             width: calc(100% - 1rem);
             border-radius: 7px;
             cursor: pointer;
+            transition: background 300ms;
 
 
             &:hover {
