@@ -49,6 +49,15 @@
         margin-left: 1rem;
 
         &:hover {
+            &:nth-child(1) {
+                color: rgb(49, 34, 255);
+            }
+            &:nth-child(2) {
+                color: rgb(27, 180, 13);
+            }
+            &:nth-child(3) {
+                color: rgb(255, 27, 103);
+            }
             .nav-item-expanded {
                 display: block;
             }
@@ -92,6 +101,7 @@
             padding: 1rem;
             padding-top: 1rem;
             border-radius: 5px;
+            color: black;
             animation: revealFromTop 200ms ease-in-out 1 forwards;
             // background: red;
             
