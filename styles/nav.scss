@@ -21,7 +21,7 @@
         display: flex;
         align-items: center;
         gap: .5rem;
-        font-size: 1.2rem;
+        font-size: 1.35rem;
         font-weight: 800;
         min-width: 12.5rem;
     }
@@ -52,6 +52,7 @@
             position: relative;
             cursor: pointer;
             font-size: .9rem;
+            letter-spacing: .7px;
 
             &::after {
                 pointer-events: none;
