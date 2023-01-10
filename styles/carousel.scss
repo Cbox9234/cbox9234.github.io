@@ -16,6 +16,12 @@
       border-radius: 100px;
       font-weight: bolder;
       font-size: 1.5rem;
+
+      transition: transform 200ms;
+
+      &:active {
+        transform: scale(.7);
+      }
     }
 
     .title {
@@ -47,6 +53,10 @@
       align-items: flex-start;
       padding-bottom: .5rem;
       border-radius: 7px;
+
+      &:hover {
+        background: rgb(238, 238, 238);
+      }
 
 
       .card-bg {
@@ -93,6 +103,18 @@
         letter-spacing: 1px;
         border-radius: 100px;
         min-width: 4.5rem;
+        cursor: pointer;
+        transition: transform 300ms, filter 300ms;
+
+        &:hover {
+          filter: brightness(1.1);
+          transform: translateY(-.1rem);
+        }
+
+        &:active {
+          filter: brightness(1.1);
+          transform: translateY(-.1rem) scale(.9);
+        }
       }
     }
   }
