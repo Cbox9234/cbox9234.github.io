@@ -17,17 +17,16 @@ main {
     left: 0;
     right: 0;
     width: 100%;
-    height: calc(100vh - 15rem);
+    height: 25rem;
     max-height: 430px;
     z-index: 1;
     object-fit: cover;
 }
 
 section.hero {
-    margin-top: 1.2rem;
     padding: 1rem 1rem;
     min-width: calc(100% - 1rem);
-    height: calc(100vh - 15rem);
+    height: 25rem;
     max-height: 400px;
     display: flex;
     align-items: center;
