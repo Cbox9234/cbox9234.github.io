@@ -41,6 +41,16 @@
         font-size: 1.2rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
+
+        transition: color 200ms, background 200ms, transform 200ms;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:active {
+            transform: scale(.95);
+        }
     }
 
 
