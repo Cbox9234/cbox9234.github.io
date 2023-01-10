@@ -21,6 +21,11 @@ import ScopedItems from "../components/Home/ScopedItems";
 import Nav from "../components/Nav";
 
 export default function Home() {
+  const gotoExplore = () => {
+    const elem = document.createElement("a");
+    elem.href = "#legionExperiences";
+    elem.click();
+  };
   return (
     <>
       <Head>
@@ -41,7 +46,9 @@ export default function Home() {
                 We are building next generation of web/mobile technology
               </div>
               <div className="heroBtnSet">
-                <button className="heroBtn">Explore</button>
+                <button onClick={() => gotoExplore()} className="heroBtn">
+                  Explore
+                </button>
                 <button className="heroBtn">Contact</button>
               </div>
             </div>
