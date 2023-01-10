@@ -71,6 +71,17 @@ section.hero {
         font-weight: 700;
         min-width: 8rem;
         font-size: 1.1rem;
+        transition: color 200ms, background 200ms, transform 200ms;
+
+
+        &:hover {
+            background: black;
+            color: white;
+        }
+
+        &:active {
+            transform: scale(.9);
+        }
     }
 
 
