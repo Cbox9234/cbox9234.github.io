@@ -37,9 +37,13 @@ export default function Search() {
         type="text"
         placeholder="Search"
       ></input>
-      {searchMode && results.length > 0 && (
+      {searchMode && (
         <>
-          <div className="searchResults">
+          <div
+            className={`searchResults ${
+              searchStr === "" && results.length === 0 && "hide"
+            }`}
+          >
             {results.map((item, index) => (
               <div
                 key={index}
@@ -55,6 +59,12 @@ export default function Search() {
                 <div className="title">{item.name}</div>
               </div>
             ))}
+            {searchStr !== "" && results.length === 0 && (
+              <div key={0} className="item">
+                {/* <div className="cover"></div> */}
+                <div className="title">No Results Found</div>
+              </div>
+            )}
           </div>
           <div
             onClick={() => setSearchMode(false)}

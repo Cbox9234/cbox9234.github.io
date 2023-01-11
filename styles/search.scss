@@ -52,6 +52,10 @@
         }
     }
 
+    .searchResults.hide {
+        display: none;
+    }
+
     i {
         z-index: 111111111;
         position: absolute;
