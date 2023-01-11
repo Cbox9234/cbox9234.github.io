@@ -16,6 +16,7 @@ import "../styles/workWithUs.scss";
 import "../styles/TermsOfService/index.scss";
 import "../styles/TermsOfService/hero.scss";
 import "../styles/TermsOfService/tab.scss";
+import "../styles/Policies/index.scss";
 import "remixicon/fonts/remixicon.css";
 
 import { Poppins } from "@next/font/google";
