@@ -96,6 +96,24 @@
             font-size: 1.7rem;
         }
 
+        &.Company{
+            position: relative;
+            .nav-item-expanded {
+                // display: block;
+                position: absolute;
+                top: 1.8rem;
+                left: 50%;
+                transform: translateX(-50%) !important;
+                right: unset;
+                width: max-content;
+                
+                padding: 1rem;
+                padding-top: 1rem;
+                border-radius: 5px;
+                color: black;
+            }
+        }
+
         .nav-item-expanded {
             display: none;
             position: fixed;
