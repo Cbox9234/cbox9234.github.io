@@ -36,6 +36,8 @@
         font-weight: 800;
         min-width: 13.5rem;
         white-space: nowrap;
+        user-select: none;
+        cursor: pointer;
     }
     .links {
         display: flex;

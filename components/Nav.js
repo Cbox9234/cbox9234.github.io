@@ -6,12 +6,15 @@ import NavItem from "./Nav/NavItem";
 import ProductsDetails from "./Nav/ProductsDetails";
 import CompanyDetails from "./Nav/CompanyDetails";
 import ResourcesDetails from "./Nav/ResourcesDetails";
+import { useRouter } from "next/router";
 
 export default function Nav() {
+  const router = useRouter();
+
   return (
     <div className="nav">
       <div className="mainWrapper">
-        <div className="logo">
+        <div className="logo" onClick={() => router.push("/")}>
           <Image alt="Logo" src={Logo} />
           LEGiON Platfoms
         </div>
