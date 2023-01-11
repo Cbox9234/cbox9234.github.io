@@ -245,7 +245,7 @@
 
 
     .nav-btn {
-        background: #ffc78f;
+        background: #FFB502;
         font-weight: 600;
         padding: .50rem .9rem;
         border-radius: 7px;
@@ -253,6 +253,10 @@
         cursor: pointer;
         user-select: none;
         transition: transform 300ms, color 300ms, background 300ms, filter 300ms;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .6rem;
 
         &:hover {
             filter: contrast(1.2);

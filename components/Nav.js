@@ -26,7 +26,8 @@ export default function Nav() {
         </div>
         <div className="right-bar">
           <Search />
-          <div className="nav-btn" onClick={() => console.log("Hi")}>
+          <div className="nav-btn">
+            <i class="ri-mail-line"></i>
             Contact
           </div>
         </div>
