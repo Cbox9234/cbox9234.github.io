@@ -16,7 +16,7 @@ export default function Nav() {
       <div className="mainWrapper">
         <div className="logo" onClick={() => router.push("/")}>
           <Image alt="Logo" src={Logo} />
-          LEGiON Platfoms
+          LEGiON Platforms
         </div>
         <div className="links">
           <NavItem title="Products" ExpandedElem={<ProductsDetails />} />
