@@ -60,10 +60,15 @@ export default function Search() {
               </div>
             ))}
             {searchStr !== "" && results.length === 0 && (
-              <div key={0} className="item">
-                {/* <div className="cover"></div> */}
-                <div className="title">No Results Found</div>
-              </div>
+              <>
+                <div key={0} className="item noResult">
+                  <div className="title">No Results Found</div>
+                </div>
+
+                <div key={1} className="item viewAllGames">
+                  <div className="title">View all Games</div>
+                </div>
+              </>
             )}
           </div>
           <div

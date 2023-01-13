@@ -50,6 +50,28 @@
                 background: rgb(240, 240, 240);
             }
         }
+
+        .noResult {
+            justify-content: center;
+            pointer-events: none;
+            opacity: .4;
+        }
+
+        .viewAllGames {
+            background: rgb(240, 240, 240);
+            margin: 0rem .5rem;
+            justify-content: center;
+            transition: color 200ms, background 200ms, transform 200ms;
+
+            &:hover {
+                background: var(--accent);
+                color: white;
+            }
+
+            &:active {
+                transform: scale(.9);
+            }
+        }
     }
 
     .searchResults.hide {
