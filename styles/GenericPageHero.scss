@@ -10,6 +10,12 @@ section.genericHero2 {
     }
 }
 
+section.genericHero3 {
+    &:after {
+        background: linear-gradient(to bottom, #D9D95B, #D9A429) !important;
+    }
+}
+
 .message {
     text-align: center;
     font-size: 1.8rem;

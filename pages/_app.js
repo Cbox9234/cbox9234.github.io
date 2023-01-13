@@ -19,6 +19,7 @@ import "../styles/TermsOfService/hero.scss";
 import "../styles/TermsOfService/tab.scss";
 import "../styles/GenericPageHero.scss";
 import "../styles/Policies/index.scss";
+import "../styles/Games/index.scss";
 import "remixicon/fonts/remixicon.css";
 
 import { Poppins } from "@next/font/google";
