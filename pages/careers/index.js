@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Hero from "../../components/Careers/Hero";
+import Jobs from "../../components/Careers/Jobs";
 import OurCulture from "../../components/Careers/OurCulture";
 import Footer from "../../components/Footer/Footer";
 import Company from "../../components/Home/Company";
@@ -20,6 +21,7 @@ export default function index() {
         <div className="mainWrapper termsofservice">
           <Hero />
           <OurCulture />
+          <Jobs />
           <Company careerMode={true} />
           <Footer />
         </div>
