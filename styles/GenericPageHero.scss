@@ -1,0 +1,11 @@
+section.genericHero {
+    &:after {
+        background: linear-gradient(to bottom, #87C58E, #4CA179) !important;
+    }
+}
+
+.message {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
