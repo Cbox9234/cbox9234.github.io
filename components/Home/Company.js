@@ -5,16 +5,18 @@ import g2 from "../../res/g2.png";
 import g5 from "../../res/g5.png";
 import g6 from "../../res/g6.png";
 
-export default function Company() {
+export default function Company({ careerMode = false }) {
   return (
     <section className="aSection ourCompany">
       <div className="mainCont">
         <div className="lCont">
-          <div className="sub-title">About LEGiON Platforms</div>
+          {!careerMode && (
+            <div className="sub-title">About LEGiON Platforms</div>
+          )}
           <div className="title">
             We are building<br></br>new worlds.
           </div>
-          <button>Our Company</button>
+          {!careerMode && <button>Our Company</button>}
         </div>
         <div className="rCont">
           <div>
