@@ -27,7 +27,7 @@ export default function Nav() {
         <div className="right-bar">
           <Search />
           <div className="nav-btn">
-            <i class="ri-mail-line"></i>
+            <i className="ri-mail-line"></i>
             Contact
           </div>
         </div>
