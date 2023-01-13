@@ -8,7 +8,12 @@ import g5 from "../../res/g5.png";
 import data from "../../res/itemList.json";
 
 export default function GamesList() {
-  const handleClick = (url) => {};
+  const handleClick = (url) => {
+    const elem = document.createElement("a");
+    elem.href = url;
+    elem.target = "blank";
+    elem.click();
+  };
   return (
     <section className="aSection gamesList">
       <div className="scopedItems">
