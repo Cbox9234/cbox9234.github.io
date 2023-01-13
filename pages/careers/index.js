@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Hero from "../../components/Careers/Hero";
+import OurCulture from "../../components/Careers/OurCulture";
 import Footer from "../../components/Footer/Footer";
 import Company from "../../components/Home/Company";
 import Nav from "../../components/Nav";
@@ -18,6 +19,7 @@ export default function index() {
       <main className="termsofservice">
         <div className="mainWrapper termsofservice">
           <Hero />
+          <OurCulture />
           <Company careerMode={true} />
           <Footer />
         </div>
