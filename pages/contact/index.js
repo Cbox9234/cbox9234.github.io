@@ -1,0 +1,36 @@
+import Head from "next/head";
+import React from "react";
+import Footer from "../../components/Footer/Footer";
+import Nav from "../../components/Nav";
+import Hero from "../../components/Contact/Hero";
+
+export default function Policies() {
+  return (
+    <>
+      <Head>
+        <title>Legion Platforms - Contact Us</title>
+        <meta name="description" content="Legion Platforms" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Nav />
+      <main className="termsofservice">
+        <div className="mainWrapper termsofservice">
+          <Hero />
+          <section className="aSection ourCompany">
+            <div className="mainCont">
+              <div className="message">
+                Want to reach out for busines inquiries or to ask us any
+                questions about our company or products?
+                <br></br>
+                <br></br>
+                Email us at legionplatforms@gmail.com
+              </div>
+            </div>
+          </section>
+          <Footer />
+        </div>
+      </main>
+    </>
+  );
+}
