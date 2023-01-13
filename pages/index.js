@@ -20,6 +20,7 @@ import LegionExperiences from "../components/Home/LegionExperiences";
 import ScopedItems from "../components/Home/ScopedItems";
 import Nav from "../components/Nav";
 import WorkWithUs from "../components/Home/WorkWithUs";
+import Company from "../components/Home/Company";
 
 export default function Home() {
   const gotoExplore = () => {
@@ -74,6 +75,7 @@ export default function Home() {
           <Contact />
           <FAQ />
           <WorkWithUs />
+          <Company />
           <Users />
           <Footer />
         </div>

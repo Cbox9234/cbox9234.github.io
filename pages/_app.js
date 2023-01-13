@@ -13,6 +13,7 @@ import "../styles/users.scss";
 import "../styles/legionExperiences.scss";
 import "../styles/scopedItems.scss";
 import "../styles/workWithUs.scss";
+import "../styles/company.scss";
 import "../styles/TermsOfService/index.scss";
 import "../styles/TermsOfService/hero.scss";
 import "../styles/TermsOfService/tab.scss";
