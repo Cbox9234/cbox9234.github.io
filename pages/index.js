@@ -21,8 +21,10 @@ import ScopedItems from "../components/Home/ScopedItems";
 import Nav from "../components/Nav";
 import WorkWithUs from "../components/Home/WorkWithUs";
 import Company from "../components/Home/Company";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const router = useRouter();
   const gotoExplore = () => {
     const elem = document.createElement("a");
     elem.href = "#legionExperiences";
@@ -51,7 +53,12 @@ export default function Home() {
                 <button onClick={() => gotoExplore()} className="heroBtn">
                   Explore
                 </button>
-                <button className="heroBtn">Contact</button>
+                <button
+                  onClick={() => router.push("/contact")}
+                  className="heroBtn"
+                >
+                  Contact
+                </button>
               </div>
             </div>
             <div className="rCont">
