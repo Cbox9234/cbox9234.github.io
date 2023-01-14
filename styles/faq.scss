@@ -87,3 +87,35 @@
 
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .faq {
+        padding: 1rem 0rem !important;
+    
+        .title {
+            font-size: 2.5rem !important;
+        }
+    
+        .faq-list {
+            .faq-item-cont {
+                padding: .8rem .5rem;
+
+                .faq-title {
+                    font-size: 1.1rem;
+                }
+    
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+    
+            .faq-info {
+                font-size: .9rem;
+                line-height: 1.9rem;
+                letter-spacing: .7px;
+            }
+        }
+    }
+
+}
