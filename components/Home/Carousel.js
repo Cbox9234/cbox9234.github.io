@@ -1,11 +1,13 @@
-import Image from "next/image";
-import c1 from "../../res/carousel/c1.png";
-import c1Sq from "../../res/carousel/c1_sq.png";
-import c2 from "../../res/carousel/c2.png";
-import c2Sq from "../../res/carousel/c2_sq.png";
 import data from "../../res/itemList.json";
 
 export default function Carousel() {
+  const handleClick = (url) => {
+    const elem = document.createElement("a");
+    elem.href = url;
+    elem.target = "blank";
+    elem.click();
+  };
+
   return (
     <div className="carousel">
       <div className="actions">
@@ -34,10 +36,15 @@ export default function Carousel() {
               ></img>
               <div className="title-cont">
                 <img src={item.squareImage} alt="game square image"></img>
-                <div className="card-title">Snow Blast</div>
+                <div className="card-title">{item.name}</div>
               </div>
-              <div className="info">The ultimate snowball fight game</div>
-              <button className="card-btn">Play</button>
+              <div className="info">{item.shortDesc}</div>
+              <button
+                onClick={() => handleClick(item.link)}
+                className="card-btn"
+              >
+                Play
+              </button>
             </div>
           ) : null
         )}
