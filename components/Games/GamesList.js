@@ -23,7 +23,7 @@ export default function GamesList() {
               <img src={item.squareImage} alt="cover" />
               <div className="detailsCont">
                 <div className="card-title">{item.name}</div>
-                <div className="card-info"></div>
+                <div className="card-info">{item.shortDesc}</div>
                 <div className="actionCont">
                   <button onClick={() => handleClick(item.link)}>
                     <i className="ri-arrow-right-s-line"></i>

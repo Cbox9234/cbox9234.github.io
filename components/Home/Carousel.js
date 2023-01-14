@@ -3,6 +3,7 @@ import c1 from "../../res/carousel/c1.png";
 import c1Sq from "../../res/carousel/c1_sq.png";
 import c2 from "../../res/carousel/c2.png";
 import c2Sq from "../../res/carousel/c2_sq.png";
+import data from "../../res/itemList.json";
 
 export default function Carousel() {
   return (
@@ -23,87 +24,23 @@ export default function Carousel() {
         ></i>
       </div>
       <div className="card-list" id="carousel">
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c2} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c2Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
-        <div className="card">
-          <Image className="card-bg" src={c1} alt="gamePhoto"></Image>
-          <div className="title-cont">
-            <Image src={c1Sq} alt="game square image"></Image>
-            <div className="card-title">Snow Blast</div>
-          </div>
-          <div className="info">The ultimate snowball fight game</div>
-          <button className="card-btn">Play</button>
-        </div>
+        {data.map((item, index) =>
+          item.game === "Y" ? (
+            <div key={index} className="card">
+              <img
+                className="card-bg"
+                src={item.wideImage}
+                alt="gamePhoto"
+              ></img>
+              <div className="title-cont">
+                <img src={item.squareImage} alt="game square image"></img>
+                <div className="card-title">Snow Blast</div>
+              </div>
+              <div className="info">The ultimate snowball fight game</div>
+              <button className="card-btn">Play</button>
+            </div>
+          ) : null
+        )}
       </div>
     </div>
   );
