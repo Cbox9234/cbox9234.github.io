@@ -24,7 +24,7 @@ export default function Tab({ curr }) {
         <div
           key={index}
           onClick={() => router.push(item.link)}
-          className={`${curr.title === item.title && "active"}`}
+          className={`${curr === item.title && "active"}`}
         >
           {item.title}
         </div>
