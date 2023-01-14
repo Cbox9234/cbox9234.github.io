@@ -37,3 +37,19 @@ section.users {
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    section.users {
+        gap: .5rem;
+        padding: 2rem 0rem !important;
+  
+        .title {
+            font-size: 2rem !important;
+            line-height: 2.2rem;
+        }
+    
+        .info {
+            font-size: 1rem;
+        }
+    }
+}
