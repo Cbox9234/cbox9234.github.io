@@ -215,3 +215,78 @@ footer {
         }
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+        gap: 1rem;
+        padding: .5rem 0rem;
+        width: calc(100% - 1rem);
+        margin-top: -1rem;
+        padding-bottom: 0rem;
+
+    
+        .footerHero {
+            padding: 1.5rem .5rem;
+            margin: 0rem;
+    
+            .lCont {
+                .logoCont {
+                    font-size: 1.2rem;
+    
+                    img {
+                        width: 1.3rem;
+                    }
+                }
+    
+                .footerHeroTitle {
+                    font-size: .9rem;
+                    margin-left: 1.78rem;
+                }
+    
+                .location {
+                    font-size: .8rem;
+                    i {
+                        font-size: 1rem;
+                    }
+                }
+                
+            }
+    
+            .rCont {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                button {
+                    padding: .4rem 1rem;
+                    font-size: .8rem;
+                }
+            }
+        }
+    
+        .footerMain {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            place-items: center;
+            align-items: flex-start;
+            padding: 0rem 1rem;
+            gap: 1rem;
+    
+            section.footerSection {
+                width: 100%;
+    
+                .header {
+                    font-size: 1.05rem;
+                }
+            }
+        }
+    
+        .footerEnd {
+            padding: .7rem 0rem;
+            font-size: .9rem;
+        }
+    }
+
+
+}
