@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/router";
 
 const listOfGames = [
   {
@@ -69,6 +70,7 @@ const listOfGames2 = [
 ];
 
 export default function LegionExperiences() {
+  const router = useRouter();
   return (
     <section id="legionExperiences" className="aSection legionexperiences">
       <div className="title">LEGiON Experiences</div>
@@ -106,7 +108,7 @@ export default function LegionExperiences() {
         </div>
       </div>
 
-      <button>See Full Lineup</button>
+      <button onClick={() => router.push("/games")}>See Full Lineup</button>
     </section>
   );
 }

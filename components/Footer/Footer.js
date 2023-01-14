@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="rCont">
-          <button>Contact</button>
+          <button onClick={() => router.push("/contact")}>Contact</button>
           <button>Partnership</button>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function Footer() {
           <div className="header">Company</div>
           <div className="referenceHolder">
             <div>Accessibility</div>
-            <div>Ethics Policy</div>
+            <div onClick={() => router.push("/policies")}>Ethics Policy</div>
             <div>Inclusion</div>
           </div>
         </section>
@@ -75,7 +75,7 @@ export default function Footer() {
           <div className="header">Directory</div>
           <div className="referenceHolder">
             <div>About LEGiON</div>
-            <div>Careers</div>
+            <div onClick={() => router.push("/careers")}>Careers</div>
             <div>Help Center</div>
           </div>
         </section>
