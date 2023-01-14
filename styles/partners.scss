@@ -10,7 +10,6 @@
 
 
     .title {
-
         text-align: center;
         font-size: 3rem !important;
         font-weight: 800 !important;
@@ -30,7 +29,7 @@
         .partner-item {
             aspect-ratio: 16 / 9;
             width: 16rem;
-            background: white;
+            background: var(--background2);
             border-radius: 15px;
 
             display: grid;
@@ -40,7 +39,7 @@
             transition: background 400ms;
 
             &:hover {
-                background: #e5eef7;
+                background: var(--legion-partner-card-hover);
             }
 
 

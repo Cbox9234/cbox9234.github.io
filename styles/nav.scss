@@ -18,7 +18,7 @@
     top: 0;
     width: 100%;
     height: 4rem;
-    background: rgba(255, 255, 255, 0.872);
+    background: var(--legion-nav-bg);
     backdrop-filter: blur(5px);
     padding: 1rem 1rem;
     box-shadow: 0 5px 20px -5px rgb(0 0 0 / 7%);
@@ -111,7 +111,7 @@
                 padding: 1rem;
                 padding-top: 1rem;
                 border-radius: 5px;
-                color: black;
+                color: var(--text);
             }
         }
 
@@ -124,12 +124,12 @@
             padding: 1rem;
             padding-top: 1rem;
             border-radius: 5px;
-            color: black;
+            color: var(--text);
             animation: revealFromTop 200ms ease-in-out 1 forwards;
             // background: red;
             
             .wrapper {
-                background: rgb(255, 255, 255);
+                background: var(--background);
                 border: 1px solid rgba(0, 0, 0, 0.053);
                 min-height: 10rem;
                 padding: 1rem;
@@ -173,7 +173,7 @@
                                 width: 1.8rem;
                                 height: 1.8rem;
                                 border-radius: 5px;
-                                background: rgba(0, 0, 0, 0.164);
+                                background: var(--legion-nav-item-bg);
                             }
 
                             .infoCont {
@@ -229,13 +229,15 @@
             box-shadow: 0 5px 20px -5px rgb(0 0 0 / 7%);
             padding: .6rem 2.2rem;
             padding-right: .7rem;
-            border: 1px solid #dae1e7;
+            border: 1px solid var(--legion-searchbox-outline);
             border-radius: 7px;
             font-weight: 500;
             letter-spacing: .6px;
             max-width: 20rem;
             min-width: 1rem;
             width: calc(100% - 1.2rem);
+            background: var(--background);
+            color: var(--text);
 
             &:focus-within{
                 outline: none;
@@ -247,6 +249,7 @@
 
     .nav-btn {
         background: #FFB502;
+        color: black;
         font-weight: 600;
         padding: .50rem .9rem;
         border-radius: 7px;

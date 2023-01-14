@@ -10,7 +10,7 @@
 
     .mainCont {
         width: calc(100% - 4rem);
-        background: rgb(241, 241, 241);
+        background: var(--legion-sub-bg);
         border-radius: 15px;
         padding: 2rem;
         display: flex;
@@ -26,7 +26,7 @@
     }
 
     .title {
-        color: black !important;
+        color: var(--text) !important;
         font-size: 3.5rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px;
@@ -35,7 +35,7 @@
     }
 
     .sub-title {
-        color: black;
+        color: var(--text);
         font-size: 1.3rem;
         font-weight: 700;
         letter-spacing: .5px;

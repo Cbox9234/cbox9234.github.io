@@ -38,8 +38,9 @@ section.hero {
         position: absolute;
         left: -50%;
         // transform: translateX(50%);
-        filter: brightness(0) invert(1);
+        filter: var(--legion-overlay);
         opacity: .1;
+        z-index: -1;
 
     }
 
@@ -71,12 +72,14 @@ section.hero {
         font-weight: 700;
         min-width: 8rem;
         font-size: 1.1rem;
+        color: var(--text);
+        background: var(--background);
         transition: color 200ms, background 200ms, transform 200ms;
 
 
         &:hover {
-            background: black;
-            color: white;
+            background: var(--text);
+            color: var(--background);
         }
 
         &:active {

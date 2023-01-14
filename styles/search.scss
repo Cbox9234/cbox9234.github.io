@@ -14,7 +14,7 @@
         width: 2rem;
         top: 2.6rem;
         width: calc(100% - 1.2rem);
-        background: white;
+        background: var(--background);
 
         display: flex;
         flex-direction: column;
@@ -34,7 +34,7 @@
             display: flex;
             align-items: center;
             gap: 1rem;
-            color: black;
+            color: var(--text);
             font-size: .85rem;
             font-weight: 600;
             letter-spacing: .2px;
@@ -45,11 +45,11 @@
                 background-size: cover;
                 background-position: center;
                 border-radius: 4px;
-                background-color: rgb(182, 182, 182);
+                background-color: var(--legion-nav-item-bg);
             }
 
             &:hover {
-                background: rgb(240, 240, 240);
+                background: var(--legion-bg-hover);
             }
         }
 
@@ -60,7 +60,7 @@
         }
 
         .viewAllGames {
-            background: rgb(240, 240, 240);
+            background: var(--legion-sub-bg);
             margin: 0rem .5rem;
             justify-content: center;
             transition: color 200ms, background 200ms, transform 200ms;
@@ -99,6 +99,6 @@
     .searchInputMode {
         border-bottom-right-radius: 0 !important;
         border-bottom-left-radius: 0 !important;
-        border-bottom-color: rgb(241, 241, 241) !important;
+        border-bottom-color: var(--legion-nav-bg) !important;
     }
 }

@@ -21,7 +21,7 @@ section.users {
     }
 
     .title {
-        color: white !important;
+        color: var(--background) !important;
         text-align: center;
         font-size: 3rem !important;
         font-weight: 700 !important;
@@ -30,7 +30,7 @@ section.users {
     }
 
     .info {
-        color: rgb(240, 240, 240);
+        color: var(--background);
         font-size: 1.3rem;
         font-weight: 600;
         letter-spacing: .5px;
