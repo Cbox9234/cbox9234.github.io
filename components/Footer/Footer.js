@@ -59,16 +59,18 @@ export default function Footer() {
             <div onClick={() => router.push("/terms_of_service")}>
               Terms of service
             </div>
-            <div>Privacy</div>
+            <div onClick={() => router.push("/privacy")}>Privacy</div>
             <div>GDPR</div>
           </div>
         </section>
         <section className="footerSection">
           <div className="header">Company</div>
           <div className="referenceHolder">
-            <div>Accessibility</div>
+            <div onClick={() => router.push("/accessibility")}>
+              Accessibility
+            </div>
             <div onClick={() => router.push("/policies")}>Ethics Policy</div>
-            <div>Inclusion</div>
+            <div onClick={() => router.push("/inclusion")}>Inclusion</div>
           </div>
         </section>
         <section className="footerSection">
