@@ -64,3 +64,24 @@
     }
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    section.partnership {
+        .title {
+            font-size: 2.5rem !important;
+        }
+    
+        .info {
+            margin-bottom: 1rem;
+            font-size: .9rem;
+            margin-bottom: .2rem;
+        }
+    
+        button {
+            padding: .5rem 1.5rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+    }
+}
