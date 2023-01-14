@@ -171,3 +171,48 @@ section.legionexperiences {
 }
 
 
+
+@media only screen and (max-width: 600px) {
+    section.legionexperiences {
+        .title {
+            font-size: 2rem !important;
+        }
+    
+        .info {
+            margin-bottom: 1rem;
+            font-size: .9rem;
+        }
+
+        
+        // Animation
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-13rem * 6 + 5.5rem))}
+        }
+        
+        
+        // Styling
+        .slider {
+            width: calc(100% - 1rem);
+            margin-left: .5rem;
+            margin-right: .5rem;
+            height: 6rem;
+            
+            .slide-track { 
+                width: calc(12rem * 12);
+                height: 9rem;
+            }
+            
+            .slide {
+                width: 12rem;
+                height: 6rem;
+            }
+        }
+    
+        button {
+            padding: .5rem 1.5rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+    }
+  }
