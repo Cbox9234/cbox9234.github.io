@@ -3,232 +3,258 @@
         "name": "Plundur.io",
         "link": "https://plundur.io/",
         "squareImage": "https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png",
-        "wideImage": "",
-        "game": "Y"
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580761116135434/4.png",
+        "superWideImage": "",
+        "game": "Y",
+        "tallImage": "",
+        "shortDesc": "3D Multiplayer Pirate Game"
     },
     {
         "name": "Plundur.io Social",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575644161704146/2.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
+        "game": "N",
         "tallImage": "",
-        "game": "N"
+        "shortDesc": "Official Plundur.io Social"
     },
     {
         "name": "Survival",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580761472643153/7.png",
         "superWideImage": "",
+        "game": "Y",
         "tallImage": "",
-        "game": "Y"
+        "shortDesc": "3D Multiplayer Survival/Tycoon Game"
     },
     {
         "name": "Ocean",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575643486441542/4.png?width=663&height=663",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580761841729646/8.png",
         "superWideImage": "",
+        "game": "Y",
         "tallImage": "",
-        "game": "Y"
+        "shortDesc": "3D Multiplayer Ocean Exploration Game"
     },
     {
         "name": "CrazyRun.io",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575679976874065/7.png?width=574&height=574",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063581627999072276/CrazyRun.png",
         "superWideImage": "",
+        "game": "Y",
         "tallImage": "",
-        "game": "Y"
+        "shortDesc": "3D Multiplayer Parkour Running Game"
     },
     {
         "name": "Snow Blast",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575681738477698/10.png?width=574&height=574",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580752735895663/6.png",
         "superWideImage": "",
+        "game": "Y",
         "tallImage": "",
-        "game": "Y"
+        "shortDesc": "3D Multiplayer Snowball Blast Game"
     },
     {
         "name": "The Seas",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575681348411422/9.png?width=574&height=574",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580751225946185/1.png",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "Y"
+        "game": "Y",
+        "tallImage": ""
     },
     {
         "name": "Build Survival",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575680803147886/8.png?width=574&height=574",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580751683141733/2.png",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "Y"
+        "game": "Y",
+        "tallImage": ""
     },
     {
         "name": "Desert Dunes",
         "link": "",
-        "squareImage": "",
-        "wideImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575643826172066/1.png?width=663&height=663",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580753125982248/9.png",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "Y"
+        "game": "Y",
+        "tallImage": ""
     },
     {
         "name": "LEGiON Portal",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575682619285604/12.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "LEGiON Distribution",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575724654612631/21.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "LEGiON Publishing",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575714982543451/13.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Terms Of Service",
-        "link": "",
-        "squareImage": "",
+        "link": "/terms",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Privacy",
-        "link": "",
-        "squareImage": "",
+        "link": "/privacy",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575716253405345/16.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "GDPR",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575716677034025/17.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Legal",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717780144218/20.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Accessability",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717780144218/20.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Ethics",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717780144218/20.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Inclusion",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717780144218/20.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "About LEGiON",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717780144218/20.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Careers",
-        "link": "",
-        "squareImage": "",
+        "link": "/careers",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Internships",
-        "link": "",
-        "squareImage": "",
+        "link": "/careers",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Help Center",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Social Media",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Contact Us",
-        "link": "",
-        "squareImage": "",
+        "link": "/contact",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
     },
     {
         "name": "Partnership",
         "link": "",
-        "squareImage": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=574&height=574",
         "wideImage": "",
         "superWideImage": "",
-        "tallImage": "",
-        "game": "N"
+        "game": "N",
+        "tallImage": ""
+    },
+    {
+        "name": "Park Game",
+        "link": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575678836023357/5.png?width=574&height=574",
+        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580752186445854/5.png",
+        "superWideImage": "",
+        "game": "Y",
+        "tallImage": ""
+    },
+    {
+        "name": "Mobile Parkour",
+        "link": "",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575679414833182/6.png?width=574&height=574",
+        "wideImage": "",
+        "superWideImage": "",
+        "game": "N",
+        "tallImage": ""
     }
 ]
