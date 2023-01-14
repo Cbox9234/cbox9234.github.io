@@ -7,6 +7,7 @@ import ProductsDetails from "./Nav/ProductsDetails";
 import CompanyDetails from "./Nav/CompanyDetails";
 import ResourcesDetails from "./Nav/ResourcesDetails";
 import { useRouter } from "next/router";
+import Mode from "./Nav/Mode";
 
 export default function Nav() {
   const router = useRouter();
@@ -26,6 +27,7 @@ export default function Nav() {
         </div>
         <div className="right-bar">
           <Search />
+          <Mode />
           <div onClick={() => router.push("/contact")} className="nav-btn">
             <i className="ri-mail-line"></i>
             Contact

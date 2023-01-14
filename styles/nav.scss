@@ -212,11 +212,13 @@
         margin-left: auto;
         display: flex;
         align-items: center;
+        gap: 1rem;
     }
 
     .search {
         position: relative;
         color: var(--sub-text);
+        margin-right: -1.4rem;
 
         i {
             margin-left: .7rem;
@@ -268,6 +270,18 @@
 
         &:active {
             transform: scale(.9);
+        }
+    }
+
+    .mode-btn {
+        aspect-ratio: 1 / 1;
+        padding: .8rem;
+        background: var(--background);
+        color: var(--text);
+        border: 1px solid var(--legion-searchbox-outline);
+
+        &:hover {
+            background: var(--legion-accent);
         }
     }
 }
