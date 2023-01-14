@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 const data = [
@@ -14,6 +15,7 @@ const data = [
     items: [
       {
         title: "Careers",
+        link: "/careers",
       },
       {
         title: "Internships",
@@ -23,6 +25,7 @@ const data = [
 ];
 
 export default function CompanyDetails() {
+  const router = useRouter();
   return (
     <div className="nav-item-expanded">
       <div className="wrapper products">
@@ -33,7 +36,16 @@ export default function CompanyDetails() {
               {item.items.map((currItem, index2) => (
                 <div key={index2} className="item">
                   <div className="infoCont">
-                    <div className="infoTitle">{currItem.title}</div>
+                    <div
+                      onClick={() => {
+                        if (currItem.link) {
+                          router.push(currItem.link);
+                        }
+                      }}
+                      className="infoTitle"
+                    >
+                      {currItem.title}
+                    </div>
                   </div>
                 </div>
               ))}

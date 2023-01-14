@@ -26,7 +26,7 @@ export default function Nav() {
         </div>
         <div className="right-bar">
           <Search />
-          <div className="nav-btn">
+          <div onClick={() => router.push("/contact")} className="nav-btn">
             <i className="ri-mail-line"></i>
             Contact
           </div>

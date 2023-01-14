@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { useState } from "react";
 import searchData from "../res/searchData.json";
 
@@ -5,6 +6,7 @@ export default function Search() {
   const [searchStr, setSearchStr] = useState("");
   const [searchMode, setSearchMode] = useState(false);
   const [results, setResults] = useState([]);
+  const router = useRouter();
 
   const search = (value) => {
     setSearchStr(value);
@@ -62,11 +64,19 @@ export default function Search() {
             {searchStr !== "" && results.length === 0 && (
               <>
                 <div key={0} className="item noResult">
-                  <div className="title">No Results Found</div>
+                  <div className="title" style={{ textAlign: "center" }}>
+                    No Results Found
+                  </div>
                 </div>
 
-                <div key={1} className="item viewAllGames">
-                  <div className="title">View all Games</div>
+                <div
+                  onClick={() => router.push("/games")}
+                  key={1}
+                  className="item viewAllGames"
+                >
+                  <div className="title" style={{ textAlign: "center" }}>
+                    View all Games
+                  </div>
                 </div>
               </>
             )}

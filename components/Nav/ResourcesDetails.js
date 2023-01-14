@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 const data = [
@@ -9,6 +10,7 @@ const data = [
       },
       {
         title: "Support Email",
+        link: "/contact",
       },
     ],
   },
@@ -17,9 +19,11 @@ const data = [
     items: [
       {
         title: "Careers",
+        link: "/careers",
       },
       {
         title: "Internships",
+        link: "/careers",
       },
     ],
   },
@@ -28,12 +32,15 @@ const data = [
     items: [
       {
         title: "Ethics",
+        link: "/policies",
       },
       {
         title: "Inclusion",
+        link: "/inclusion",
       },
       {
         title: "Accessibility",
+        link: "/accessibility",
       },
     ],
   },
@@ -46,6 +53,7 @@ const data = [
       },
       {
         title: "Playtesting",
+        link: "/playtesting",
       },
       {
         title: "News/Press",
@@ -55,6 +63,7 @@ const data = [
 ];
 
 export default function ResourcesDetails() {
+  const router = useRouter();
   return (
     <div className="nav-item-expanded">
       <div className="wrapper products">
@@ -65,7 +74,16 @@ export default function ResourcesDetails() {
               {item.items.map((currItem, index2) => (
                 <div key={index2} className="item">
                   <div className="infoCont">
-                    <div className="infoTitle">{currItem.title}</div>
+                    <div
+                      onClick={() => {
+                        if (currItem.link) {
+                          router.push(currItem.link);
+                        }
+                      }}
+                      className="infoTitle"
+                    >
+                      {currItem.title}
+                    </div>
                   </div>
                 </div>
               ))}
