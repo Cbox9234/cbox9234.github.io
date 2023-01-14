@@ -120,3 +120,58 @@ section.scopedItemSection {
         }
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    section.scopedItemSection {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding: 1rem 0rem !important;
+    
+        .scopedItems {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+            gap: 1rem;
+    
+            .scopedItem {
+                width: 100%;
+                aspect-ratio: 16 / 12;
+    
+                .detailsCont {
+                    .card-title {
+                        font-size: 1.4rem;
+                    }
+    
+                    .card-info {
+                        font-size: .8rem;
+                    }
+    
+                    .actionCont {
+                        margin-top: 0rem;
+                        gap: .5rem;
+
+                        button {
+                            border: 1px solid var(--legion-scoped-btn-outline);
+                            gap: .2rem;
+                            padding: .4rem .8rem;
+                            min-width: 5rem;
+                            font-size: .8rem;
+
+                            i {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+    
+    
+            }
+        }
+    }
+
+}
