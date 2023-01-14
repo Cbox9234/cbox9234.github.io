@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Hero() {
+export default function Hero({ title }) {
   return (
     <section className="aSection termsHero">
-      <div className="title">Terms Of Service</div>
+      <div className="title">{title}</div>
     </section>
   );
 }
