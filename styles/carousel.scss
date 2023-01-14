@@ -119,3 +119,65 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .carousel {
+    gap: 1.5rem;
+  
+    .actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      .title {
+        font-size: 1.5rem;
+      }
+
+      i {
+        font-size: 1.4rem;
+        height: 2.5rem;
+        aspect-ratio: 1 / 1;
+      }
+    }
+  
+    .card-list {
+      height: auto;
+      .card {
+        width: 13rem;
+        padding-bottom: 1rem;
+  
+        .card-bg {
+          height: 7rem;
+        }
+  
+        .title-cont {
+          img {
+            width: 1.6rem;
+            height: 1.6rem;
+            border-radius: 4px;
+            object-fit: cover;
+          }
+  
+          .card-title {
+            font-size: 1rem;
+          }
+        }
+  
+        .info {
+          font-size: .75rem;
+        }
+  
+        .card-btn {
+          margin: 0rem .5rem;
+          padding: .3rem .4rem;
+          font-size: .8rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  
+
+}
