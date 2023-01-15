@@ -38,3 +38,27 @@ div.tab {
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .head {
+        margin-top: .5rem !important;
+    }
+
+    div.tab {
+        justify-content: flex-start;
+        gap: 2rem;
+        width: 100vw;
+        font-size: .9rem;
+        padding: .8rem 1rem;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    
+        & > div {
+            white-space: nowrap;
+        }
+    }
+
+}
