@@ -242,5 +242,46 @@ section.jobs {
         }
     }
 
+    section.ourCulture {
+        display: flex;
+        align-items: center;
+        .mainCont {
+            margin: 1rem 0rem;
+            width: calc(100% - 0rem) !important;
+            
     
+            .title {
+                font-size: 2.2rem !important;
+                margin-bottom: 2rem;
+            }
+    
+            .cultures {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                .item {
+                    padding: 1rem 1rem;
+                    gap: 1rem;
+                    border-radius: 7px;
+    
+                    .lCont {
+                        width: 4rem;
+                        height: 4rem;
+                        font-size: 2rem;
+                    }
+    
+                    .rCont {
+                        .header {
+                            font-weight: 700;
+                            font-size: 1.2rem;
+                        }
+    
+                        .info {
+                            font-size: .85rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
