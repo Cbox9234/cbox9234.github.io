@@ -76,6 +76,18 @@ html, body {
   --career-card-ico: #80b4e9;
 }
 
+[data-theme="dark"] {
+  .light {
+      display: none;
+  }
+}
+
+[data-theme="default"] {
+  .dark {
+      display: none;
+  }
+}
+
 html, body {
   background: var(--background);
   color: var(--text);
