@@ -4,7 +4,7 @@ import React from "react";
 const data = [
   {
     title: "Terms Of Service",
-    link: "/terms_of_service",
+    link: "/terms",
   },
   {
     title: "Privacy Policy",
