@@ -284,4 +284,57 @@ section.jobs {
             }
         }
     }
+
+    section.jobs {
+        .mainCont {
+            margin: 0rem 0rem;
+            width: calc(100% - 1rem) !important;
+
+            .title {
+                font-size: 2.2rem !important;
+            }
+    
+            .jobs {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 0rem;
+    
+                .job {
+                    padding: .5rem 0rem;
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        font-size: .75rem;
+                        font-weight: 500;
+                        letter-spacing: .7px;
+                        width: 100%;
+
+                        &:first-child {
+                            width: 15rem;
+                        }
+
+                        // &:last-child {
+                        //     align-items: center;
+                        //     justify-content: space-between;
+                        //     flex-direction: row-reverse;
+                        //     gap: 1rem;
+                        // }
+
+                         &:last-child {
+                            text-align: right;
+                            align-items: center;
+                            justify-content: flex-end;
+                        }
+                    }
+    
+                    i {
+                        font-size: 1rem;
+                        margin-left: .5rem;
+                    }
+                }
+            }
+        }
+    }
 }
