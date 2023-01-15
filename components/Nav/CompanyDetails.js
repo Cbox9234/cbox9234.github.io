@@ -28,7 +28,7 @@ export default function CompanyDetails() {
   const router = useRouter();
   return (
     <div className="nav-item-expanded">
-      <div className="wrapper products">
+      <div className="wrapper products onlyTextItems">
         {data.map((item, index) => (
           <section key={index} className="products-section">
             <div className="products-title">{item.title}</div>

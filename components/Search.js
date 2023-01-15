@@ -1,12 +1,32 @@
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import searchData from "../res/searchData.json";
 
-export default function Search() {
+const useFocus = () => {
+  const htmlElRef = useRef(null);
+  const setFocus = () => {
+    htmlElRef.current && htmlElRef.current.focus();
+  };
+
+  return [htmlElRef, setFocus];
+};
+
+export default function Search({
+  className,
+  onInitialMode = false,
+  onAction = () => {},
+}) {
   const [searchStr, setSearchStr] = useState("");
-  const [searchMode, setSearchMode] = useState(false);
+  const [searchMode, setSearchMode] = useState(() => onInitialMode);
   const [results, setResults] = useState([]);
   const router = useRouter();
+  const [inputRef, setInputFocus] = useFocus();
+
+  useEffect(() => {
+    if (onInitialMode) {
+      setInputFocus();
+    }
+  }, []);
 
   const search = (value) => {
     setSearchStr(value);
@@ -26,12 +46,14 @@ export default function Search() {
   const handleItemClick = (url) => () => {
     setSearchMode(false);
     setSearchStr("");
+    onAction();
   };
 
   return (
-    <div className="search">
+    <div className={`search ${className}`}>
       <i className="ri-search-2-line"></i>
       <input
+        ref={inputRef}
         className={`${results.length > 0 && searchMode && "searchInputMode"}`}
         onClick={() => setSearchMode(true)}
         value={searchStr}
@@ -82,7 +104,10 @@ export default function Search() {
             )}
           </div>
           <div
-            onClick={() => setSearchMode(false)}
+            onClick={() => {
+              onAction();
+              setSearchMode(false);
+            }}
             className="touchBlocker"
           ></div>
         </>
