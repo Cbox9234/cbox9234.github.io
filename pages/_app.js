@@ -17,6 +17,7 @@ import "../styles/workWithUs.scss";
 import "../styles/company.scss";
 import "../styles/TermsOfService/index.scss";
 import "../styles/TermsOfService/hero.scss";
+import "../styles/News/index.scss";
 import "../styles/TermsOfService/tab.scss";
 import "../styles/GenericPageHero.scss";
 import "../styles/Policies/index.scss";
