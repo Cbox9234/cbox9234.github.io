@@ -100,3 +100,88 @@ section.newsHero {
     }
 }
 
+
+@media only screen and (max-width: 600px) {
+    section.newsHero {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding: 1rem 0rem !important;
+        padding-bottom: 0rem;
+    
+        .mainCont {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0rem 1rem;
+        }
+    
+
+    
+        &::before {
+            position: absolute;
+            content: '';
+            background: white;
+            inset: 0;
+            width: 100vw;
+            height: 40%;
+            top: unset;
+            bottom: 0 !important;
+            margin: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+    
+    
+        .title {
+            color: white !important;
+            text-align: left;
+            font-size: 2.2rem !important;
+            font-weight: 700 !important;
+            letter-spacing: 1px;
+            line-height: 2.6rem;
+        }
+    
+        .sub-title {
+            color: white;
+            font-size: 1rem !important;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            text-align: left;
+            opacity: .7;
+            margin-bottom: .1rem !important;
+        }
+    
+        .cover {
+            border-radius: 10px;
+            aspect-ratio: 16 / 9;
+            // max-width: 40rem;
+            width: 100%;
+            height: auto;
+            top: 15rem;
+            margin-top: 1rem;
+        }
+    }
+    
+    .newsTextSet {
+        width: calc(100% - 1.4rem);
+        padding: .7rem;
+        margin-top: -2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 11;
+        padding-bottom: 3rem;
+    
+        .info {
+            max-width: 60rem;
+            line-height: 1.9rem;
+            font-size: .9rem;
+            letter-spacing: .6px;
+        }
+    }
+}
