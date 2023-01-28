@@ -1,9 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import bigNewsBg from "../../res/news/big.png";
-import newsBg1 from "../../res/news/n1.png";
-import newsBg2 from "../../res/news/n2.png";
-import newsBg3 from "../../res/news/n3.png";
 
 export default function CompanyNews() {
   return (
