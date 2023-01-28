@@ -1,0 +1,104 @@
+.legionEcoSystem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // min-height: 50rem;
+    gap: .5rem;
+    padding: 3rem 0rem !important;
+    padding-bottom: 0rem !important;
+    
+    &::after {
+        position: absolute;
+        content: '';
+        background: #010101;
+        inset: 0;
+        width: 100vw;
+        margin: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .title {
+        color: white !important;
+        text-align: center;
+        font-size: 3rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px;
+    }
+
+
+    .card-set {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        width: 100%;
+        max-width: 600px;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        aspect-ratio: 1 / 1;
+
+        .cards {
+            display: flex;
+            gap: 1.5rem;
+
+            .card {
+                width: 14rem;
+                aspect-ratio: 14 / 15;
+                border-radius: 7px;
+            }
+
+            &:nth-child(1) div:nth-child(1){
+                background: linear-gradient(to bottom, #008A35, #008534);
+            }
+
+            &:nth-child(1) div:nth-child(2){
+                background: linear-gradient(to bottom, #2562D3, #333AC2);
+            }
+
+            &:nth-child(1) div:nth-child(3){
+                background: linear-gradient(to bottom, #6B24A3, #531D9C);
+            }
+
+            &:nth-child(2) div:nth-child(1){
+                background: linear-gradient(to bottom, #99A2C7, #8197C1);
+            }
+
+            &:nth-child(2) div:nth-child(2){
+                background: linear-gradient(to bottom, #75C6CC, #52BDC5);
+            }
+        }
+    }
+
+
+}
+
+
+// @media only screen and (max-width: 600px) {
+//     section.partnership {
+//         .title {
+//             font-size: 2.5rem !important;
+//             padding: 0rem .5rem;
+//         }
+    
+//         .info {
+//             margin-bottom: 1rem;
+//             font-size: .9rem;
+//             margin-bottom: .2rem;
+//         }
+    
+//         button {
+//             padding: .5rem 1.5rem;
+//             font-size: 1rem;
+//             margin-top: 1rem;
+//         }
+//     }
+// }

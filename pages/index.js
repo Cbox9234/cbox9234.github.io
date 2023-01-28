@@ -22,6 +22,7 @@ import Nav from "../components/Nav";
 import WorkWithUs from "../components/Home/WorkWithUs";
 import Company from "../components/Home/Company";
 import { useRouter } from "next/router";
+import EcoSystem from "../components/Home/EcoSystem";
 
 export default function Home() {
   const router = useRouter();
@@ -75,6 +76,7 @@ export default function Home() {
           <section className="aSection">
             <Carousel />
           </section>
+          <EcoSystem />
           <LegionExperiences />
           <CompanyNews />
           <Partnership />

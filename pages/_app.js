@@ -5,6 +5,7 @@ import "../styles/search.scss";
 import "../styles/footer.scss";
 import "../styles/home.scss";
 import "../styles/carousel.scss";
+import "../styles/ecoSystem.scss";
 import "../styles/companyNews.scss";
 import "../styles/partnership.scss";
 import "../styles/contact.scss";
