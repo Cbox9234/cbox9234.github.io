@@ -1,58 +1,48 @@
 import React from "react";
 
-export default function OurCulture() {
+const defaultSet = [
+  {
+    logo: "ri-lightbulb-flash-line",
+    head: "We innovate",
+    info: "Be a part of a company that puts innovation first",
+  },
+  {
+    logo: "ri-leaf-fill",
+    head: "Personal Development",
+    info: "We provide many learning and growth opportunities",
+  },
+  {
+    logo: "ri-funds-line",
+    head: "Rapid Growth",
+    info: "Be a part of a fast-growning company environment",
+  },
+  {
+    logo: "ri-tools-fill",
+    head: "We build new worlds",
+    info: "Here at LEGiON - we plan, we build, and we finish",
+  },
+];
+
+export default function OurCulture({
+  title = "Our Culture",
+  data = defaultSet,
+}) {
   return (
     <section className="aSection ourCulture">
       <div className="mainCont">
-        <div className="title">Our Culture</div>
+        <div className="title">{title}</div>
         <div className="cultures">
-          <div className="item">
-            <div className="lCont">
-              <i className="ri-lightbulb-flash-line"></i>
-            </div>
-            <div className="rCont">
-              <div className="header">We innovate</div>
-              <div className="info">
-                Be a part of a company that puts innovation first.
+          {data.map((item, index) => (
+            <div key={index} className="item">
+              <div className="lCont">
+                <i className={item.logo}></i>
+              </div>
+              <div className="rCont">
+                <div className="header">{item.head}</div>
+                <div className="info">{item.info}</div>
               </div>
             </div>
-          </div>
-
-          <div className="item">
-            <div className="lCont">
-              <i className="ri-leaf-fill"></i>
-            </div>
-            <div className="rCont">
-              <div className="header">Personal Development</div>
-              <div className="info">
-                We provide many learning and growth opportunities
-              </div>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="lCont">
-              <i className="ri-funds-line"></i>
-            </div>
-            <div className="rCont">
-              <div className="header">Rapid Growth</div>
-              <div className="info">
-                Be a part of a fast-growning company environment
-              </div>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="lCont">
-              <i className="ri-tools-fill"></i>
-            </div>
-            <div className="rCont">
-              <div className="header">We build new worlds</div>
-              <div className="info">
-                Here at LEGiON - we plan, we build, and we finish
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
