@@ -152,6 +152,7 @@
       height: auto;
       .card {
         width: 13rem;
+        min-height: 15.5rem;
         padding-bottom: 1rem;
   
         .card-bg {
@@ -176,7 +177,7 @@
         // }
   
         .card-btn {
-          margin: 0rem .5rem;
+          margin: .5rem;
           padding: .3rem .4rem;
           font-size: .8rem;
           font-weight: 600;
