@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../res/logo.png";
 
 export default function EcoSystem() {
   return (
