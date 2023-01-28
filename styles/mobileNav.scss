@@ -169,14 +169,14 @@
                 }
             }
 
-            &:hover {
-                .nav-item-expanded {
-                    display: block !important;
-                }
-            }
+            // &:hover {
+            //     .nav-item-expanded {
+            //         display: block !important;
+            //     }
+            // }
 
             .nav-item-expanded {
-                display: none !important;
+                display: block !important;
             }
 
             .products {
