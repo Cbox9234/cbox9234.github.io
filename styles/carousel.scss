@@ -51,6 +51,7 @@
     .card {
       width: 15rem;
       height: 100%;
+      min-height: 17rem;
       display: flex;
       flex-direction: column;
       gap: .5rem;
@@ -91,14 +92,14 @@
         }
       }
 
-      .info {
-        padding: 0rem .5rem;
-        font-weight: 400;
-        font-size: .8rem;
-      }
+      // .info {
+      //   padding: 0rem .5rem;
+      //   font-weight: 400;
+      //   font-size: .8rem;
+      // }
 
       .card-btn {
-        margin: 0rem .5rem;
+        margin: .5rem;
         border: none;
         background: rgb(21, 101, 221);
         padding: .35rem .8rem;
@@ -170,9 +171,9 @@
           }
         }
   
-        .info {
-          font-size: .75rem;
-        }
+        // .info {
+        //   font-size: .75rem;
+        // }
   
         .card-btn {
           margin: 0rem .5rem;
