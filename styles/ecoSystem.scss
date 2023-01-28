@@ -31,6 +31,7 @@
 
 
     .card-set {
+        position: relative;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -46,34 +47,110 @@
         margin-bottom: 4rem;
         aspect-ratio: 1 / 1;
 
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.432);
+            z-index: 1;
+        }
+
         .cards {
             display: flex;
             gap: 1.5rem;
+            z-index: 2;
 
-            .card {
-                width: 14rem;
-                aspect-ratio: 14 / 15;
-                border-radius: 7px;
-            }
-
-            &:nth-child(1) div:nth-child(1){
+            // Colors
+            &:nth-child(1) > div:nth-child(1){
                 background: linear-gradient(to bottom, #008A35, #008534);
             }
 
-            &:nth-child(1) div:nth-child(2){
+            &:nth-child(1) > div:nth-child(2){
                 background: linear-gradient(to bottom, #2562D3, #333AC2);
             }
 
-            &:nth-child(1) div:nth-child(3){
+            &:nth-child(1) > div:nth-child(3){
                 background: linear-gradient(to bottom, #6B24A3, #531D9C);
             }
 
-            &:nth-child(2) div:nth-child(1){
+            &:nth-child(2) > div:nth-child(1){
                 background: linear-gradient(to bottom, #99A2C7, #8197C1);
             }
 
-            &:nth-child(2) div:nth-child(2){
+            &:nth-child(2) > div:nth-child(2){
                 background: linear-gradient(to bottom, #75C6CC, #52BDC5);
+            }
+
+
+            .card {
+                width: 15rem;
+                // aspect-ratio: 14 / 15;
+                border-radius: 7px;
+                padding: 1.2rem 1rem;
+                color: white;
+
+                .logo {
+                    display: flex;
+                    gap: .8rem;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+
+                    img {
+                        width: 1.25rem;
+                        object-fit: contain;
+                        // filter: brightness(0) invert(1);
+                    }
+                }
+
+                .content {
+                    margin: .8rem 0rem;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                }
+
+                button {
+                    border-radius: 100px;
+                    font-weight: 700;
+                    padding: .3rem 1rem;
+                    border: none;
+                }
+
+                .last-set {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+
+                    .rCont {
+                        display: flex;
+
+                        & > div > div {
+                            border-radius: 10px;
+                            background-position: center !important;
+                            background-size: contain !important;
+                        }
+
+                        .one {
+                            padding-top: 4rem;
+
+                            div {
+                                width: 3rem;
+                                aspect-ratio: 1 / 1;
+                                background: red;
+                            }
+                        }
+
+                        .two {
+
+                            div {
+                                width: 4rem;
+                                aspect-ratio: 1 / 1;
+                                background: black;
+                            }
+                        }
+                    }
+
+                }
+
             }
         }
     }
