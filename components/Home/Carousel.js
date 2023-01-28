@@ -1,6 +1,6 @@
 import data from "../../res/itemList.json";
 
-export default function Carousel() {
+export default function Carousel({ title = "Featured Products" }) {
   const handleClick = (url) => {
     const elem = document.createElement("a");
     elem.href = url;
@@ -11,7 +11,7 @@ export default function Carousel() {
   return (
     <div className="carousel">
       <div className="actions">
-        <div className="title">Featured Products</div>
+        <div className="title">{title}</div>
         <i
           className="ri-arrow-left-s-line"
           onClick={() => {
