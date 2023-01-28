@@ -52,6 +52,7 @@ export default function CompanyNews() {
           </div>
         </div>
       </div>
+      <button>View All News</button>
     </section>
   );
 }
