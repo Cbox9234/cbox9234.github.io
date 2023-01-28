@@ -7,12 +7,16 @@
     // min-height: 50rem;
     gap: .5rem;
     padding: 3rem 0rem !important;
-    padding-bottom: 0rem !important;
+    padding-bottom: 7rem !important;
     
     &::after {
         position: absolute;
         content: '';
         background: #010101;
+        background-image: url(https://cdn.discordapp.com/attachments/886692415572946984/1068819094033399828/Moon_Transparent_PNG_Clip_Art-639687983.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         inset: 0;
         width: 100vw;
         margin: auto;
@@ -21,12 +25,54 @@
         z-index: -1;
     }
 
+    &::before {
+        position: absolute;
+        content: '';
+        background: #0101014b;
+        inset: 0;
+        width: 100vw;
+        margin: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
     .title {
         color: white !important;
         text-align: center;
         font-size: 3rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px;
+        z-index: 2;
+    }
+
+    .info {
+        color: white;
+        font-size: 1.1rem;
+        letter-spacing: .5px;
+        text-align: center;
+        z-index: 2;
+    }
+
+    & > button {
+        padding: .7rem 1.7rem;
+        border: none;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        z-index: 2;
+
+        transition: color 200ms, background 200ms, transform 200ms;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:active {
+            transform: scale(.95);
+        }
     }
 
 
@@ -43,17 +89,17 @@
         gap: 1.5rem;
         width: 100%;
         // max-width: 600px;
-        margin-top: 2rem;
-        margin-bottom: 4rem;
-        aspect-ratio: 1 / 1;
+        padding-top: 2rem;
+        padding-bottom: 12rem;
+        // aspect-ratio: 1 / 1;
 
-        &::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.432);
-            z-index: 1;
-        }
+        // &::after {
+        //     content: '';
+        //     position: absolute;
+        //     inset: 0;
+        //     background: rgba(0, 0, 0, 0.432);
+        //     z-index: 1;
+        // }
 
         .cards {
             display: flex;
@@ -81,6 +127,10 @@
                 background: linear-gradient(to bottom, #75C6CC, #52BDC5);
             }
 
+            &:nth-child(2) > div:nth-child(3){
+                background: linear-gradient(to bottom, #B6366C, #A73569);
+            }
+
 
             .card {
                 width: 15rem;
@@ -88,6 +138,7 @@
                 border-radius: 7px;
                 padding: 1.2rem 1rem;
                 color: white;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.39);
 
                 .logo {
                     display: flex;
@@ -113,6 +164,15 @@
                     font-weight: 700;
                     padding: .3rem 1rem;
                     border: none;
+                    transition: color 200ms, background 200ms, transform 200ms;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+
+                    &:active {
+                        transform: scale(.95);
+                    }
                 }
 
                 .last-set {

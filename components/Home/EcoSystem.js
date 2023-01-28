@@ -5,11 +5,13 @@ export default function EcoSystem() {
   return (
     <section id="legionExperiences" className="aSection legionEcoSystem">
       <div className="title">The LEGiON Ecosystem</div>
+      <div className="info">Join the ultimate ecosystem, built for all</div>
+      <button>Learn More</button>
 
       <div
-        style={{
-          backgroundImage: `url('https://cdn.discordapp.com/attachments/886692415572946984/1068760023326527570/image.png')`,
-        }}
+        // style={{
+        //   backgroundImage: `url('https://cdn.discordapp.com/attachments/886692415572946984/1068819094033399828/Moon_Transparent_PNG_Clip_Art-639687983.png')`,
+        // }}
         className="card-set"
       >
         <div className="cards">
@@ -142,6 +144,38 @@ export default function EcoSystem() {
               LEGiON White Label
             </div>
             <div className="content">Premium white label for your products</div>
+            <div className="last-set">
+              <button>Explore</button>
+              <div className="rCont">
+                <div className="image one">
+                  <div
+                    style={{
+                      backgroundImage: `url('https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png')`,
+                    }}
+                  ></div>
+                </div>
+                <div className="image two">
+                  <div
+                    style={{
+                      backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663')`,
+                    }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="logo" onClick={() => router.push("/")}>
+              <img
+                alt="Logo"
+                src="https://cdn.discordapp.com/attachments/918131950106083378/1068795423600410684/logo.png"
+              />
+              LEGiON Database
+            </div>
+            <div className="content">
+              Database, backend, dashboard all in one
+            </div>
             <div className="last-set">
               <button>Explore</button>
               <div className="rCont">
