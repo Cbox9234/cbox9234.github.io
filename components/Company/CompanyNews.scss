@@ -1,0 +1,121 @@
+.companyPageNews {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .title {
+        text-align: center;
+        font-size: 3rem !important;
+        font-weight: 800 !important;
+        margin-bottom: 2rem;
+    }
+
+    .newsCont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+
+        // & > div {
+        //     border-radius: 10px;
+        //     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.062);
+        // }
+
+        .news {
+            background: var(--background2);
+            // border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            transition: transform 400ms;
+            width: 100%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                aspect-ratio: 16 / 9;
+                object-fit: cover;
+            }
+
+            & > div {
+                padding: .5rem;
+                display: flex;
+                flex-direction: column;
+                gap: .2rem;
+                justify-content: center;
+
+                .info {
+                    color: var(--text);
+                    font-weight: 700;
+                    opacity: .5;
+                }
+
+                .news-title {
+                    font-weight: 700;
+                    padding-bottom: 1rem;
+                }
+
+                .news-title {
+                    line-height: 1.4rem;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .companyNews {
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+        .title {
+            font-size: 2rem !important;
+        }
+    
+        .newsCont {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            height: auto;
+    
+            .bigNews {
+                padding: .5rem;
+                aspect-ratio: 16 / 9;
+    
+                .news-title {
+                    font-size: 1.4rem;
+                }
+    
+                .news-type {
+                    font-size: 1rem;
+                }
+            }
+    
+            .news {
+                justify-content: space-between;
+                height: fit-content;
+    
+                img {
+                    aspect-ratio: 16 / 9;
+                    height: 100%;
+                    object-fit: cover;
+                }
+    
+                & > div {
+                    padding: 1rem;
+
+                    .news-title {
+                        line-height: 1.2rem;
+                        font-size: .9rem;
+                    }
+    
+                    .news-type {
+                        font-size: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}

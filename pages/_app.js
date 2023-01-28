@@ -16,6 +16,7 @@ import "../styles/legionExperiences.scss";
 import "../styles/scopedItems.scss";
 import "../styles/workWithUs.scss";
 import "../styles/company.scss";
+import "../styles/Company/index.scss";
 import "../styles/TermsOfService/index.scss";
 import "../styles/TermsOfService/hero.scss";
 import "../styles/News/index.scss";
@@ -24,6 +25,7 @@ import "../styles/GenericPageHero.scss";
 import "../styles/Policies/index.scss";
 import "../styles/Games/index.scss";
 import "../styles/Careers/index.scss";
+import "../components/Company/CompanyNews.scss";
 import "remixicon/fonts/remixicon.css";
 
 import { Poppins } from "@next/font/google";
