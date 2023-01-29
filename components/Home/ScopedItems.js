@@ -21,7 +21,12 @@ export default function ScopedItems() {
       <div className="scopedItems">
         {scopedItemsData.map((item, index) => (
           <div key={index} className="scopedItem">
-            <img src={item.squareImage} alt="cover" />
+            <img
+              src={
+                item.name === "Snow Blast" ? item.squareImage : item.wideImage
+              }
+              alt="cover"
+            />
             <div className="detailsCont">
               <div className="card-title">{item.name}</div>
               <div className="card-info">{item.shortDesc}</div>
