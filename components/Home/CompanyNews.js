@@ -1,43 +1,44 @@
-import Image from "next/image";
-import bigNewsBg from "../../res/news/big.png";
-import newsBg1 from "../../res/news/n1.png";
-import newsBg2 from "../../res/news/n2.png";
-import newsBg3 from "../../res/news/n3.png";
+/* eslint-disable @next/next/no-img-element */
+import news from "../../res/news.json";
+import { useMemo } from "react";
+import { useRouter } from "next/router";
 
 export default function CompanyNews() {
+  const router = useRouter();
+  const mainNews = useMemo(() => {
+    return news.filter((item) => item.type === "News").slice(0, 4);
+  }, []);
+
   return (
     <section className="aSection companyNews">
       <div className="title">Company News</div>
       <div className="newsCont">
         <div className="bigNews">
           <div>
-            <div className="news-title">Plundur.io launches alpha</div>
-            <div className="news-type">LEGiON NEWS</div>
+            <div className="news-title">{mainNews[0].shortTitle}</div>
+            <div className="news-type">{mainNews[0].category}</div>
           </div>
-          <Image src={bigNewsBg} className="bg" alt="big news"></Image>
+          <img src={mainNews[0].thumbnail} className="bg" alt="big news"></img>
         </div>
-        <div className="news">
-          <div>
-            <div className="news-title">LEGiON Launches Snow Blast</div>
-            <div className="news-type">GAME LAUNCH</div>
-          </div>
-          <Image src={newsBg1} className="bg" alt="news"></Image>
-        </div>
-        <div className="news">
-          <div>
-            <div className="news-title">CrazyRun.io Beta is released</div>
-            <div className="news-type">BETA LAUNCH</div>
-          </div>
-          <Image src={newsBg2} className="bg" alt="news"></Image>
-        </div>
-        <div className="news">
-          <div>
-            <div className="news-title">TheSeas wraps up beta testing</div>
-            <div className="news-type">UPDATE</div>
-          </div>
-          <Image src={newsBg3} className="bg" alt="news"></Image>
-        </div>
-        <button>View All News</button>
+        {mainNews.map(
+          (item, index) =>
+            index !== 0 && (
+              <div key={index} className="news">
+                <div>
+                  <div
+                    onClick={() => router.push(`/news/${item.shortTitle}`)}
+                    className="news-title"
+                  >
+                    {item.shortTitle}
+                  </div>
+                  <div className="news-type">{item.category}</div>
+                </div>
+                <img src={item.thumbnail} className="bg" alt="big news"></img>
+              </div>
+            )
+        )}
+
+        <button onClick={() => router.push("/news")}>View All News</button>
       </div>
     </section>
   );
