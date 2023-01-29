@@ -22,7 +22,9 @@ export default function EcoSystem() {
               />
               LEGiON Portal
             </div>
-            <div className="content">Play thousands of games within clicks</div>
+            <div className="content">
+              Play thousands of <br></br>games within clicks
+            </div>
             <div className="last-set">
               <button>Explore</button>
               <div className="rCont">
@@ -51,7 +53,9 @@ export default function EcoSystem() {
               />
               LEGiON Distribution
             </div>
-            <div className="content">Premium games for your products</div>
+            <div className="content">
+              Premium games for<br></br> your products
+            </div>
             <div className="last-set">
               <button>Explore</button>
               <div className="rCont">
@@ -81,7 +85,7 @@ export default function EcoSystem() {
               LEGiON Publishing
             </div>
             <div className="content">
-              Bring your game or project to millions
+              Bring your game or<br></br> project to millions
             </div>
             <div className="last-set">
               <button>Explore</button>
@@ -113,7 +117,9 @@ export default function EcoSystem() {
               />
               LEGiON Advertising
             </div>
-            <div className="content">Advertise your brand to millions</div>
+            <div className="content">
+              Advertise your brand<br></br> to millions
+            </div>
             <div className="last-set">
               <button>Explore</button>
               <div className="rCont">
@@ -142,7 +148,9 @@ export default function EcoSystem() {
               />
               LEGiON White Label
             </div>
-            <div className="content">Premium white label for your products</div>
+            <div className="content">
+              Ultimate white label<br></br> for your products
+            </div>
             <div className="last-set">
               <button>Explore</button>
               <div className="rCont">
@@ -173,7 +181,7 @@ export default function EcoSystem() {
               LEGiON Database
             </div>
             <div className="content">
-              Database, backend, dashboard all in one
+              Database, backend,<br></br> dashboard all in one
             </div>
             <div className="last-set">
               <button>Explore</button>

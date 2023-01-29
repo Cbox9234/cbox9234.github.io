@@ -105,6 +105,8 @@
             display: flex;
             gap: 1.5rem;
             z-index: 2;
+            width: 100%;
+            padding: 0rem 1rem;
 
             // Colors
             &:nth-child(1) > div:nth-child(1){
@@ -133,7 +135,7 @@
 
 
             .card {
-                width: 15rem;
+                width: 100%;
                 // aspect-ratio: 14 / 15;
                 border-radius: 7px;
                 padding: 1.2rem 1rem;
@@ -157,6 +159,7 @@
                     margin: .8rem 0rem;
                     font-weight: 600;
                     font-size: 1.2rem;
+                    width: 100%;
                 }
 
                 button {
@@ -190,10 +193,10 @@
                         }
 
                         .one {
-                            padding-top: 4rem;
+                            padding-top: 9vmin;
 
                             div {
-                                width: 3rem;
+                                width: 6vmin;
                                 aspect-ratio: 1 / 1;
                                 background: red;
                             }
@@ -202,7 +205,7 @@
                         .two {
 
                             div {
-                                width: 4rem;
+                                width: 8.5vmin;
                                 aspect-ratio: 1 / 1;
                                 background: black;
                             }
