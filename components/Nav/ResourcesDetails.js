@@ -57,6 +57,7 @@ const data = [
       },
       {
         title: "News/Press",
+        link: "/news",
       },
     ],
   },
