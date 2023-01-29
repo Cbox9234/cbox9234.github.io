@@ -15,6 +15,13 @@ const scopedItemsData = [
   getGameByName("Snow Blast"),
 ];
 
+const handleClick = (url) => {
+  const elem = document.createElement("a");
+  elem.href = url;
+  elem.target = "blank";
+  elem.click();
+};
+
 export default function ScopedItems() {
   return (
     <section className="aSection scopedItemSection">
@@ -34,7 +41,7 @@ export default function ScopedItems() {
                 {item.comingSoon !== "N" ? (
                   <button className="disabled">{item.comingSoon}</button>
                 ) : (
-                  <button>
+                  <button onClick={() => handleClick(item.link)}>
                     <i className="ri-arrow-right-s-line"></i>
                     Play Now
                   </button>
