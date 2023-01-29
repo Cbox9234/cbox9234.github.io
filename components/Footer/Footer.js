@@ -2,6 +2,31 @@ import Image from "next/image";
 import React from "react";
 import logo from "../../res/logo.png";
 import { useRouter } from "next/router";
+import data from "../../res/searchData.json";
+
+const getGameByName = (gameName) => {
+  return data.find((item) => item.name === gameName);
+};
+
+const popularGames = [
+  getGameByName("Plundur.io"),
+  getGameByName("Plundur.io Social"),
+  getGameByName("CrazyRun.io"),
+  getGameByName("Snow Blast"),
+];
+
+const legionEcoSystem = [
+  getGameByName("LEGiON Portal"),
+  getGameByName("LEGiON Distribution"),
+  getGameByName("LEGiON Publishing"),
+];
+
+const handleClick = (url) => {
+  const elem = document.createElement("a");
+  elem.href = url;
+  elem.target = "blank";
+  elem.click();
+};
 
 export default function Footer() {
   const router = useRouter();
@@ -39,18 +64,21 @@ export default function Footer() {
         <section className="footerSection">
           <div className="header">Games</div>
           <div className="referenceHolder">
-            <div>Plundur.io</div>
-            <div>Plundur.io Social</div>
-            <div>CrazyRun.io</div>
-            <div>Snow Blast</div>
+            {popularGames.map((item, index) => (
+              <div onClick={() => handleClick(item.link)} key={index}>
+                {item.name}
+              </div>
+            ))}
           </div>
         </section>
         <section className="footerSection">
           <div className="header">Platforms</div>
           <div className="referenceHolder">
-            <div>LEGiON Portal</div>
-            <div>LEGiON Distribution</div>
-            <div>LEGiON Publishing</div>
+            {legionEcoSystem.map((item, index) => (
+              <div onClick={() => handleClick(item.link)} key={index}>
+                {item.name}
+              </div>
+            ))}
           </div>
         </section>
         <section className="footerSection">
