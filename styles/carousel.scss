@@ -138,6 +138,12 @@
           transform: translateY(-.1rem) scale(.9);
         }
       }
+
+      .card-btn.disabled {
+        pointer-events: none;
+        background: var(--text);
+        opacity: .5;
+      }
     }
   }
 }

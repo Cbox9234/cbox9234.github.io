@@ -1,4 +1,4 @@
-import data from "../../res/itemList.json";
+import data from "../../res/searchData.json";
 
 export default function Carousel({ title = "Featured Products" }) {
   const handleClick = (url) => {
@@ -45,9 +45,9 @@ export default function Carousel({ title = "Featured Products" }) {
               {/* <div className="info">{item.shortDesc}</div> */}
               <button
                 onClick={() => handleClick(item.link)}
-                className="card-btn"
+                className={`card-btn ${item.comingSoon !== "N" && "disabled"}`}
               >
-                Play
+                {item.comingSoon === "N" ? "Play" : "Coming Soon"}
               </button>
             </div>
           ) : null
