@@ -26,7 +26,7 @@ const featuredGames = [
 const comingSoon = [
   getGameByName("Survival"),
   getGameByName("Build Survival"),
-  getGameByName("Pristis"),
+  getGameByName("The Seas"),
 ];
 
 const mainData = [
