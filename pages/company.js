@@ -13,6 +13,12 @@ import Nav from "../components/Nav";
 import WorkWithUs from "../components/Home/WorkWithUs";
 import { useRouter } from "next/router";
 
+const gotoProducts = () => {
+  const a = document.createElement("a");
+  a.href = "#users";
+  a.click();
+};
+
 export default function Home() {
   const router = useRouter();
   return (
@@ -39,7 +45,7 @@ export default function Home() {
               <div className="title">
                 We are building<br></br>new worlds.
               </div>
-              <button onClick={() => router.push("/company")}>
+              <button onClick={() => gotoProducts()}>
                 Explore Our Company
               </button>
             </div>
@@ -60,6 +66,7 @@ export default function Home() {
           </section>
 
           <OurCulture
+            id="users"
             title="Our Products Are Used By"
             data={[
               {

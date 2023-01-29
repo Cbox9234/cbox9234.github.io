@@ -24,11 +24,12 @@ const defaultSet = [
 ];
 
 export default function OurCulture({
+  id = "dummy",
   title = "Our Culture",
   data = defaultSet,
 }) {
   return (
-    <section className="aSection ourCulture">
+    <section id={id} className="aSection ourCulture">
       <div className="mainCont">
         <div className="title">{title}</div>
         <div className="cultures">
