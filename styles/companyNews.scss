@@ -26,7 +26,7 @@
             font-weight: 600;
             font-size: 1rem;
             height: 2rem;
-            border-radius: 5px;
+            border-radius: 10px;
             border: none;
             cursor: pointer;
             transition: transform 400ms;
@@ -51,13 +51,35 @@
             display: flex;
             align-items: flex-end;
 
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.226), transparent);
+                z-index: -1;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 1.5rem;
+                height: 1.5rem;
+                background-image: url(https://cdn.discordapp.com/attachments/918131950106083378/1068795423600410684/logo.png);
+                background-position: center;
+                background-size: contain;
+                margin: 1rem;
+                filter: brightness(0) invert(1);
+            }
+
             img {
                 position: absolute;
                 inset: 0;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                z-index: -1;
+                z-index: -2;
                 transition: transform 700ms ease;
             }
 
@@ -72,6 +94,7 @@
                 font-size: 1.8rem;
                 font-weight: 700;
                 color: rgba(255, 255, 255, 0.856);
+                z-index: 12;
             }
 
             .news-type {
@@ -84,6 +107,7 @@
         }
 
         .news {
+            position: relative;
             background: var(--background2);
             grid-column: 2 / span 1;
             border-radius: 10px;
@@ -91,6 +115,20 @@
             justify-content: space-between;
             overflow: hidden;
             transition: transform 400ms;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 1rem;
+                height: 1rem;
+                background-image: url(https://cdn.discordapp.com/attachments/918131950106083378/1068795423600410684/logo.png);
+                background-position: center;
+                background-size: contain;
+                margin: .5rem;
+                filter: brightness(0) invert(1);
+            }
 
             &:hover {
                 transform: scale(1.03);
