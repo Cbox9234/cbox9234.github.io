@@ -1,114 +1,39 @@
-import Image from "next/image";
 import React from "react";
-import cover from "../../res/g4_landscape.png";
-import g6 from "../../res/g6.png";
-import g1 from "../../res/g1.png";
-import g2 from "../../res/g2.png";
-import g5 from "../../res/g5.png";
+import data from "../../res/searchData.json";
+
+const getGameByName = (gameName) => {
+  return data.find((item) => item.name === gameName);
+};
+
+const scopedItemsData = [
+  getGameByName("Plundur.io"),
+  getGameByName("Survival"),
+  getGameByName("Pristis"),
+  getGameByName("Park Game"),
+  getGameByName("The Seas"),
+  getGameByName("Build Survival"),
+  getGameByName("Snow Blast"),
+];
 
 export default function ScopedItems() {
   return (
     <section className="aSection scopedItemSection">
       <div className="scopedItems">
-        <div className="scopedItem">
-          <Image src={cover} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Plundur.io</div>
-            <div className="card-info">
-              Multiplayer 3D pirate game on browser
-            </div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play Now
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="scopedItem">
-          <Image src={g2} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Survival</div>
-            <div className="card-info">Multiplayer 3D survival game</div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play Now
-              </button>
+        {scopedItemsData.map((item, index) => (
+          <div key={index} className="scopedItem">
+            <img src={item.squareImage} alt="cover" />
+            <div className="detailsCont">
+              <div className="card-title">{item.name}</div>
+              <div className="card-info">{item.shortDesc}</div>
+              <div className="actionCont">
+                <button>
+                  <i className="ri-arrow-right-s-line"></i>
+                  Play Now
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="scopedItem">
-          <Image src={g1} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Ocean</div>
-            <div className="card-info">Ocean exploration survival game</div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="scopedItem">
-          <Image src={g6} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Bug catch</div>
-            <div className="card-info">
-              Multiplayer 3D pirate game on browser
-            </div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play Now
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="scopedItem">
-          <Image src={cover} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Plundur.io</div>
-            <div className="card-info">
-              Multiplayer 3D pirate game on browser
-            </div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play Now
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="scopedItem">
-          <Image src={g2} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Survival</div>
-            <div className="card-info">Multiplayer 3D survival game</div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play Now
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="scopedItem">
-          <Image src={g5} alt="cover" />
-          <div className="detailsCont">
-            <div className="card-title">Winter game</div>
-            <div className="card-info">
-              Multiplayer 3D pirate game on browser
-            </div>
-            <div className="actionCont">
-              <button>
-                <i className="ri-arrow-right-s-line"></i>
-                Play Now
-              </button>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
