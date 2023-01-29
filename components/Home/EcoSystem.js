@@ -121,7 +121,7 @@ export default function EcoSystem() {
               Advertise your brand<br></br> to millions
             </div>
             <div className="last-set">
-              <button>Explore</button>
+              <button className="disabled">Coming Soon</button>
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -152,7 +152,7 @@ export default function EcoSystem() {
               Ultimate white label<br></br> for your products
             </div>
             <div className="last-set">
-              <button>Explore</button>
+              <button className="disabled">Coming Soon</button>
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -184,7 +184,7 @@ export default function EcoSystem() {
               Database, backend,<br></br> dashboard all in one
             </div>
             <div className="last-set">
-              <button>Explore</button>
+              <button className="disabled">Coming Soon</button>
               <div className="rCont">
                 <div className="image one">
                   <div
