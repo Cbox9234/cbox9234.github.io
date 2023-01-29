@@ -31,10 +31,14 @@ export default function ScopedItems() {
               <div className="card-title">{item.name}</div>
               <div className="card-info">{item.shortDesc}</div>
               <div className="actionCont">
-                <button>
-                  <i className="ri-arrow-right-s-line"></i>
-                  Play Now
-                </button>
+                {item.comingSoon !== "N" ? (
+                  <button className="disabled">{item.comingSoon}</button>
+                ) : (
+                  <button>
+                    <i className="ri-arrow-right-s-line"></i>
+                    Play Now
+                  </button>
+                )}
               </div>
             </div>
           </div>
