@@ -1,97 +1,88 @@
 import React from "react";
+import data from "../../res/searchData.json";
 
-const data = [
+const getGameByName = (gameName) => {
+  return data.find((item) => item.name === gameName);
+};
+
+const popularGames = [
+  getGameByName("Plundur.io"),
+  getGameByName("CrazyRun.io"),
+  getGameByName("Snow Blast"),
+];
+
+const legionEcoSystem = [
+  getGameByName("LEGiON Portal"),
+  getGameByName("LEGiON Distribution"),
+  getGameByName("LEGiON Publishing"),
+];
+
+const featuredGames = [
+  getGameByName("The Seas"),
+  getGameByName("Build Survival"),
+  getGameByName("Desert Dunes"),
+];
+
+const comingSoon = [
+  getGameByName("Survival"),
+  getGameByName("Build Survival"),
+  getGameByName("Pristis"),
+];
+
+const mainData = [
   {
     title: "Popular Games",
-    items: [
-      {
-        cover: "",
-        title: "Plundur.io",
-        info: "3D pirate game",
-      },
-      {
-        cover: "",
-        title: "CrazyRun.io",
-        info: "3D run game",
-      },
-      {
-        cover: "",
-        title: "CrazyBall.io",
-        info: "Snowball game",
-      },
-    ],
+    items: popularGames,
   },
   {
     title: "LEGiON Ecosystem",
-    items: [
-      {
-        cover: "",
-        title: "LEGiON Portal",
-        info: "1000+ Games",
-      },
-      {
-        cover: "",
-        title: "LEGiON Distribution",
-        info: "For publishers",
-      },
-      {
-        cover: "",
-        title: "LEGiON Publishing",
-        info: "For developers",
-      },
-    ],
+    items: legionEcoSystem,
   },
   {
     title: "Featured Games",
-    items: [
-      {
-        cover: "",
-        title: "The Seas",
-        info: "Warship game",
-      },
-      {
-        cover: "",
-        title: "Build Survival",
-        info: "Building game",
-      },
-      {
-        cover: "",
-        title: "Desert Dunes",
-        info: "FPS Game",
-      },
-    ],
+    items: featuredGames,
   },
   {
     title: "Coming Soon",
-    items: [
-      {
-        cover: "",
-        title: "Survival",
-        info: "3D survival game",
-      },
-      {
-        cover: "",
-        title: "Ocean",
-        info: "3D ocean game",
-      },
-    ],
+    items: comingSoon,
   },
 ];
 
 export default function ProductsDetails() {
+  const handleClick = (url) => {
+    const elem = document.createElement("a");
+    elem.href = url;
+    elem.target = "blank";
+    elem.click();
+  };
+
   return (
     <div className="nav-item-expanded">
       <div className="wrapper products">
-        {data.map((item, index) => (
+        {mainData.map((item, index) => (
           <section key={index} className="products-section">
             <div className="products-title">{item.title}</div>
             <div className="item-list">
               {item.items.map((currItem, index2) => (
                 <div key={index2} className="item">
-                  <div className="icoCont"></div>
+                  <div
+                    style={{
+                      backgroundImage: `url('${currItem.squareImage}')`,
+                    }}
+                    className="icoCont"
+                  ></div>
                   <div className="infoCont">
-                    <div className="infoTitle">{currItem.title}</div>
-                    <div className="infoDetail">{currItem.info}</div>
+                    <div
+                      onClick={
+                        item.title !== "Coming Soon"
+                          ? () => handleClick(currItem.link)
+                          : () => {}
+                      }
+                      className="infoTitle"
+                    >
+                      {currItem.name}
+                    </div>
+                    <div className="infoDetail">{currItem.navDesc}</div>
                   </div>
                 </div>
               ))}
