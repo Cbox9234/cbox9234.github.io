@@ -27,7 +27,7 @@ export default function Home() {
       <main>
         <div className="companyHeroBg">
           <img
-            src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fn3.61cc842e.png&w=640&q=75"
+            src="https://cdn.discordapp.com/attachments/886692415572946984/1069091357576134687/ASD.png"
             alt="logo"
           />
         </div>
