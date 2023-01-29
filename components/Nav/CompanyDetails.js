@@ -7,6 +7,7 @@ const data = [
     items: [
       {
         title: "About LEGiON",
+        link: "/company",
       },
     ],
   },

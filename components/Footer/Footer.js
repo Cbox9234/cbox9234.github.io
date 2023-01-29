@@ -74,7 +74,7 @@ export default function Footer() {
         <section className="footerSection">
           <div className="header">Directory</div>
           <div className="referenceHolder">
-            <div>About LEGiON</div>
+            <div onClick={() => router.push("/company")}>About LEGiON</div>
             <div onClick={() => router.push("/careers")}>Careers</div>
             <div>Help Center</div>
           </div>
