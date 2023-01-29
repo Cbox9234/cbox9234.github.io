@@ -1,8 +1,8 @@
 import Head from "next/head";
 import React from "react";
-import Footer from "../components/Footer/Footer";
-import Nav from "../components/Nav";
-import Hero from "../components/News/Hero";
+import Footer from "../../components/Footer/Footer";
+import Nav from "../../components/Nav";
+import Hero from "../../components/News/Hero";
 
 export default function News() {
   return (
