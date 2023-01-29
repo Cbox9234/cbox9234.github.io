@@ -37,6 +37,7 @@ export default function CompanyNews() {
           </div>
           <Image src={newsBg3} className="bg" alt="news"></Image>
         </div>
+        <button>View All News</button>
       </div>
     </section>
   );
