@@ -46,9 +46,11 @@ export default function Carousel2({ title = "Software" }) {
               <div className="bottomCont">
                 <button
                   onClick={() => handleClick(item.link)}
-                  className="card-btn"
+                  className={`card-btn ${
+                    item.comingSoon !== "N" && "disabled"
+                  }`}
                 >
-                  Open
+                  {item.comingSoon === "N" ? "Open" : "Coming Soon"}
                 </button>
               </div>
             </div>
