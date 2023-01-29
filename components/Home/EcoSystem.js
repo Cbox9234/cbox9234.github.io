@@ -1,6 +1,13 @@
 import React from "react";
 
 export default function EcoSystem() {
+  const handleClick = (url) => {
+    const elem = document.createElement("a");
+    elem.href = url;
+    elem.target = "blank";
+    elem.click();
+  };
+
   return (
     <section id="legionExperiences" className="aSection legionEcoSystem">
       <div className="title">The LEGiON Ecosystem</div>
@@ -26,7 +33,11 @@ export default function EcoSystem() {
               Play thousands of <br></br>games within clicks
             </div>
             <div className="last-set">
-              <button>Explore</button>
+              <button
+                onClick={() => handleClick("https://legionportal.netlify.app/")}
+              >
+                Explore
+              </button>
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -57,7 +68,13 @@ export default function EcoSystem() {
               Premium games for<br></br> your products
             </div>
             <div className="last-set">
-              <button>Explore</button>
+              <button
+                onClick={() =>
+                  handleClick("https://legiondistribution.netlify.app/")
+                }
+              >
+                Explore
+              </button>
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -88,7 +105,13 @@ export default function EcoSystem() {
               Bring your game or<br></br> project to millions
             </div>
             <div className="last-set">
-              <button>Explore</button>
+              <button
+                onClick={() =>
+                  handleClick("https://legionpublishing.netlify.app/")
+                }
+              >
+                Explore
+              </button>
               <div className="rCont">
                 <div className="image one">
                   <div
