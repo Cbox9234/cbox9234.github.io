@@ -72,11 +72,10 @@ export default function Home() {
             </div>
           </section>
           <ScopedItems />
-
+          <EcoSystem />
           <section className="aSection">
             <Carousel />
           </section>
-          <EcoSystem />
           <LegionExperiences />
           <CompanyNews />
           <Partnership />
