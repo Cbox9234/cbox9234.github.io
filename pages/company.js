@@ -13,6 +13,8 @@ import Nav from "../components/Nav";
 import WorkWithUs from "../components/Home/WorkWithUs";
 import { useRouter } from "next/router";
 import CompanyInfo from "../components/Company/CompanyInfo";
+import news from "../res/news.json";
+import { useMemo } from "react";
 
 const gotoProducts = () => {
   const a = document.createElement("a");
@@ -22,6 +24,9 @@ const gotoProducts = () => {
 
 export default function Home() {
   const router = useRouter();
+  const mainNews = useMemo(() => {
+    return news.filter((item) => item.type === "News").slice(0, 3);
+  }, []);
   return (
     <>
       <Head>
@@ -98,7 +103,7 @@ export default function Home() {
             <CompanyInfo />
           </section>
           <WorkWithUs />
-          <CompanyNews />
+          <CompanyNews data={mainNews} />
           <Users />
           <Footer />
         </div>

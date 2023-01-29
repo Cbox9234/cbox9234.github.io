@@ -1,7 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
+import { useRouter } from "next/router";
 import React from "react";
 
 export default function CompanyNews({ mainpage = false, data = [] }) {
+  const router = useRouter();
+
   return (
     <section className="aSection companyPageNews">
       {!mainpage && <div className="title">Latest Company News</div>}
@@ -15,7 +18,10 @@ export default function CompanyNews({ mainpage = false, data = [] }) {
                   <div className="info">
                     {item.date} | {item.category}
                   </div>
-                  <div className="news-title">
+                  <div
+                    onClick={() => router.push(`/news/${item.shortTitle}`)}
+                    className="news-title"
+                  >
                     {item.shortTitle !== "blank" ? item.shortTitle : item.title}
                   </div>
                 </div>
@@ -23,7 +29,9 @@ export default function CompanyNews({ mainpage = false, data = [] }) {
             )
         )}
       </div>
-      {!mainpage && <button>View All News</button>}
+      {!mainpage && (
+        <button onClick={() => router.push("/news")}>View All News</button>
+      )}
     </section>
   );
 }
