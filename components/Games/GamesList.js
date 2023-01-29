@@ -1,11 +1,5 @@
-import Image from "next/image";
 import React from "react";
-import cover from "../../res/g4_landscape.png";
-import g6 from "../../res/g6.png";
-import g1 from "../../res/g1.png";
-import g2 from "../../res/g2.png";
-import g5 from "../../res/g5.png";
-import data from "../../res/itemList.json";
+import data from "../../res/searchData.json";
 
 export default function GamesList() {
   const handleClick = (url) => {
@@ -25,10 +19,14 @@ export default function GamesList() {
                 <div className="card-title">{item.name}</div>
                 <div className="card-info">{item.shortDesc}</div>
                 <div className="actionCont">
-                  <button onClick={() => handleClick(item.link)}>
-                    <i className="ri-arrow-right-s-line"></i>
-                    Play Now
-                  </button>
+                  {item.comingSoon === "N" ? (
+                    <button onClick={() => handleClick(item.link)}>
+                      <i className="ri-arrow-right-s-line"></i>
+                      Play Now
+                    </button>
+                  ) : (
+                    <button className="disabled">{item.comingSoon}</button>
+                  )}
                 </div>
               </div>
             </div>
