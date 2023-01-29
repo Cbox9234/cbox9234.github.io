@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CompanyInfo() {
   return (
-    <div className="companyInfoSection">
+    <div id="companyinfo" className="companyInfoSection">
       <div className="infoSet">
         <div
           style={{

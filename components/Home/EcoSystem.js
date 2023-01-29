@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 export default function EcoSystem() {
@@ -8,11 +9,15 @@ export default function EcoSystem() {
     elem.click();
   };
 
+  const router = useRouter();
+
   return (
     <section id="legionExperiences" className="aSection legionEcoSystem">
       <div className="title">The LEGiON Ecosystem</div>
       <div className="info">Join the ultimate ecosystem, built for all</div>
-      <button>Learn More</button>
+      <button onClick={() => router.push("/company#companyinfo")}>
+        Learn More
+      </button>
 
       <div
         // style={{
