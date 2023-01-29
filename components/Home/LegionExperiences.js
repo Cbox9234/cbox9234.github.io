@@ -8,6 +8,7 @@ const listOfGames = experienceData.filter((item) => item.row === "1");
 const listOfGames2 = experienceData.filter((item) => item.row === "2");
 
 const handleClick = (url) => {
+  if (url === "blank") return;
   const elem = document.createElement("a");
   elem.href = url;
   elem.target = "blank";
