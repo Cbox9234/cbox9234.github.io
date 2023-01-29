@@ -9,7 +9,11 @@ export default function Carousel({ title = "Featured Products" }) {
   };
 
   return (
-    <div className="carousel">
+    <div
+      className={`carousel ${
+        title === "Featured Products" ? "extraPaddingFix" : ""
+      }`}
+    >
       <div className="actions">
         <div className="title">{title}</div>
         <i

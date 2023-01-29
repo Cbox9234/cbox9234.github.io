@@ -1,8 +1,24 @@
+.carousel.extraPaddingFix {
+  padding-top: 2rem !important;
+}
+
 .carousel {
   position: relative;
   display: grid;
   gap: .8rem;
   width: 100%;
+
+  &::after {
+    position: absolute;
+    content: '';
+    background: var(--background);
+    inset: 0;
+    width: 100vw;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
 
   .actions {
     display: flex;
