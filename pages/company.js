@@ -12,6 +12,7 @@ import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav";
 import WorkWithUs from "../components/Home/WorkWithUs";
 import { useRouter } from "next/router";
+import CompanyInfo from "../components/Company/CompanyInfo";
 
 const gotoProducts = () => {
   const a = document.createElement("a");
@@ -94,6 +95,7 @@ export default function Home() {
 
           <section className="aSection">
             <Carousel title="Popular Products" />
+            <CompanyInfo />
           </section>
           <WorkWithUs />
           <CompanyNews />

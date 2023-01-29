@@ -137,6 +137,47 @@ section.companyHero {
 }
 
 
+.companyInfoSection {
+    margin: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .infoSet {
+        display: flex;
+        gap: 1rem;
+
+        & > div {
+            width: 100%;
+        }
+
+        &:last-child {
+            flex-direction: row-reverse;
+        }
+
+        .rCont {
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+            aspect-ratio: 16 / 9;
+        }
+
+        .lCont {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+
+            .info {
+                font-size: .95rem;
+                letter-spacing: .6px;
+                line-height: 1.7rem;
+                font-weight: 600;
+                opacity: .7;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .companyHeroBg {
         position: absolute;
