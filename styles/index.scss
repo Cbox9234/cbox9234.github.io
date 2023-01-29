@@ -45,6 +45,9 @@ main {
   --career-card-bg: #f1f1f1;
   --career-card-ico-bg: #DFE3E7;
   --career-card-ico: #597b9c;
+
+  // Soft border
+  --soft-border: #00000041;
 }
 
 [data-theme="dark"] {
@@ -78,6 +81,9 @@ main {
   --career-card-bg: #272727;
   --career-card-ico-bg: #36383a;
   --career-card-ico: #80b4e9;
+
+  // Soft border
+  --soft-border: #ffffff41;
 }
 
 [data-theme="dark"] {
