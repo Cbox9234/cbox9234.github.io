@@ -1,6 +1,19 @@
 import { useRouter } from "next/router";
 import React from "react";
 
+const images = [
+  "https://media.discordapp.net/attachments/1063575553610883182/1063575643486441542/4.png?width=598&height=598",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069318965953835048/1.png",
+  "https://media.discordapp.net/attachments/1063575553610883182/1063575681348411422/9.png?width=598&height=598",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069319166579978261/10.png",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069319346842763354/11.png",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069320792376090745/image.png",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069321166197628988/Untitled_design_1.png",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069321321768558632/7.png",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069321356929409196/6.png",
+  "https://cdn.discordapp.com/attachments/886692415572946984/1069321440530280448/5.png",
+];
+
 export default function EcoSystem() {
   const handleClick = (url) => {
     const elem = document.createElement("a");
@@ -84,14 +97,14 @@ export default function EcoSystem() {
                 <div className="image one">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png')`,
+                      backgroundImage: `url('${images[0]}')`,
                     }}
                   ></div>
                 </div>
                 <div className="image two">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663')`,
+                      backgroundImage: `url('${images[1]}')`,
                     }}
                   ></div>
                 </div>
@@ -121,14 +134,14 @@ export default function EcoSystem() {
                 <div className="image one">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png')`,
+                      backgroundImage: `url('${images[2]}')`,
                     }}
                   ></div>
                 </div>
                 <div className="image two">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663')`,
+                      backgroundImage: `url('${images[3]}')`,
                     }}
                   ></div>
                 </div>
@@ -154,14 +167,14 @@ export default function EcoSystem() {
                 <div className="image one">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png')`,
+                      backgroundImage: `url('${images[4]}')`,
                     }}
                   ></div>
                 </div>
                 <div className="image two">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663')`,
+                      backgroundImage: `url('${images[5]}')`,
                     }}
                   ></div>
                 </div>
@@ -185,14 +198,14 @@ export default function EcoSystem() {
                 <div className="image one">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png')`,
+                      backgroundImage: `url('${images[6]}')`,
                     }}
                   ></div>
                 </div>
                 <div className="image two">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663')`,
+                      backgroundImage: `url('${images[7]}')`,
                     }}
                   ></div>
                 </div>
@@ -217,14 +230,14 @@ export default function EcoSystem() {
                 <div className="image one">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/867587464733130812/993640743891636315/render_4.png')`,
+                      backgroundImage: `url('${images[8]}')`,
                     }}
                   ></div>
                 </div>
                 <div className="image two">
                   <div
                     style={{
-                      backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663')`,
+                      backgroundImage: `url('${images[9]}')`,
                     }}
                   ></div>
                 </div>
