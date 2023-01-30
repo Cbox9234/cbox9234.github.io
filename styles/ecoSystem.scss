@@ -63,6 +63,8 @@
     }
 
     & > button {
+        pointer-events: none;
+        opacity: 0;
         padding: .7rem 1.7rem;
         border: none;
         border-radius: 100px;
