@@ -13,7 +13,9 @@ export default function CompanyNews({ mainpage = false, data = [] }) {
           (item, index) =>
             item.pageType === "LEGiON Press Release" && (
               <div key={index} className="news">
-                <img src={item.thumbnail} className="bg" alt="news" />
+                <div className="imageCont">
+                  <img src={item.thumbnail} className="bg" alt="news" />
+                </div>
                 <div>
                   <div className="info">
                     {item.date} | {item.category}
