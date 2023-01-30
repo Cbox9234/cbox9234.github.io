@@ -12,7 +12,8 @@
         "comingSoon": "N",
         "navDesc": "#1 Pirate Game",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Plundur.io Social",
@@ -27,7 +28,8 @@
         "comingSoon": "Coming February 2023",
         "navDesc": "Coming February 2023",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Survival",
@@ -42,7 +44,8 @@
         "comingSoon": "Coming March 2023",
         "navDesc": "Coming March 2023",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Pristis",
@@ -57,7 +60,8 @@
         "comingSoon": "N",
         "navDesc": "Ocean Game",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "CrazyRun.io",
@@ -72,7 +76,8 @@
         "comingSoon": "N",
         "navDesc": "#1 Run Game",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Snow Blast",
@@ -87,7 +92,8 @@
         "comingSoon": "N",
         "navDesc": "Snowball Game",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "The Seas",
@@ -102,7 +108,8 @@
         "comingSoon": "Coming February 2023",
         "navDesc": "Coming February 2023",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Build Survival",
@@ -117,7 +124,8 @@
         "comingSoon": "Coming March 2023",
         "navDesc": "Coming March 2023",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Desert Dunes",
@@ -132,7 +140,8 @@
         "comingSoon": "Coming April 2023",
         "navDesc": "Coming April 2023",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "LEGiON Portal",
@@ -147,7 +156,8 @@
         "comingSoon": "N",
         "navDesc": "1000+ Games",
         "moonDesc": "Play thousands of games within clicks",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Play thousands of games within clicks"
     },
     {
         "name": "LEGiON Distribution",
@@ -162,7 +172,8 @@
         "comingSoon": "N",
         "navDesc": "For publishers",
         "moonDesc": "Premium games for your products",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Premium games for your products"
     },
     {
         "name": "LEGiON Publishing",
@@ -177,7 +188,8 @@
         "comingSoon": "N",
         "navDesc": "For developers",
         "moonDesc": "Bring your game or project to millions",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Bring your game or project to millions"
     },
     {
         "name": "Terms Of Service",
@@ -192,7 +204,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Privacy",
@@ -207,7 +220,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "GDPR",
@@ -222,7 +236,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Legal",
@@ -237,7 +252,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Accessibility",
@@ -252,7 +268,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Ethics",
@@ -267,7 +284,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Inclusion",
@@ -282,7 +300,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "About LEGiON",
@@ -297,7 +316,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Careers",
@@ -312,7 +332,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Internships",
@@ -327,7 +348,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Help Center",
@@ -342,7 +364,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Social Media",
@@ -357,7 +380,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Contact Us",
@@ -372,7 +396,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Partnership",
@@ -387,7 +412,8 @@
         "comingSoon": "N",
         "navDesc": "blank",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Park Game",
@@ -402,7 +428,8 @@
         "comingSoon": "Coming March 2023",
         "navDesc": "Adventure Game",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "Lava Parkour",
@@ -417,13 +444,14 @@
         "comingSoon": "Coming April 2023",
         "navDesc": "Parkour Game",
         "moonDesc": "blank",
-        "software": "N"
+        "software": "N",
+        "softwareDesc": "blank"
     },
     {
         "name": "LEGiON Advertising",
         "link": "blank",
         "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575715372601464/14.png?width=598&height=598",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -432,13 +460,14 @@
         "comingSoon": "Coming Soon",
         "navDesc": "For advertisers",
         "moonDesc": "Advertise your brand to millions",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Advertise your brand world-wide with LEGiON"
     },
     {
         "name": "LEGiON White Label",
         "link": "blank",
-        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717780144218/20.png?width=598&height=598",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069125047823908874/7.png",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1069347395206402118/Untitled_design_2.png",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -447,13 +476,14 @@
         "comingSoon": "Coming Soon",
         "navDesc": "For websites",
         "moonDesc": "Ultimate white label for your products",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Boost your website retention with our white label"
     },
     {
         "name": "LEGiON Database",
         "link": "blank",
         "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575716253405345/16.png?width=598&height=598",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -462,13 +492,14 @@
         "comingSoon": "Coming Soon",
         "navDesc": "For data engineers",
         "moonDesc": "Database, backend, dashboard all in one",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "The ultimate database to optimize simplicity"
     },
     {
         "name": "LEGiON APIs",
         "link": "blank",
-        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
+        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1069347428957945886/Untitled_design_3.png",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -477,13 +508,14 @@
         "comingSoon": "Coming April 2023",
         "navDesc": "",
         "moonDesc": "blank",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Custom LEGiON API solutions"
     },
     {
         "name": "LEGiON SDK",
         "link": "blank",
-        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
+        "squareImage": "https://media.discordapp.net/attachments/867587464733130812/1069348051770151043/LEGiON_Logos_1.png",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -492,13 +524,14 @@
         "comingSoon": "Coming May 2023",
         "navDesc": "",
         "moonDesc": "blank",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Our latest, most advanced SDK available for all"
     },
     {
         "name": "LEGiON RSS",
         "link": "blank",
-        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717436203038/19.png?width=598&height=598",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
+        "squareImage": "https://media.discordapp.net/attachments/867587464733130812/1069348102378631278/LEGiON_Logos.png",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -507,28 +540,14 @@
         "comingSoon": "Coming March 2023",
         "navDesc": "",
         "moonDesc": "blank",
-        "software": "Y"
-    },
-    {
-        "name": "LEGiON Builder",
-        "link": "blank",
-        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575716677034025/17.png?width=598&height=598",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
-        "superWideImage": "",
-        "game": "N",
-        "tallImage": "",
-        "shortDesc": "Official Builder ",
-        "ID": "912",
-        "comingSoon": "Coming May 2023",
-        "navDesc": "",
-        "moonDesc": "blank",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "Make your website come to life"
     },
     {
         "name": "LEGiON Dashboard",
         "link": "blank",
         "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575717054517298/18.png?width=598&height=598",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1069213294541422642/img.png?width=1062&height=597",
+        "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1069526757520183326/image.png",
         "superWideImage": "",
         "game": "N",
         "tallImage": "",
@@ -537,6 +556,7 @@
         "comingSoon": "Coming April 2023",
         "navDesc": "",
         "moonDesc": "blank",
-        "software": "Y"
+        "software": "Y",
+        "softwareDesc": "The ultimate dashboard CMS to manage your content"
     }
 ]
