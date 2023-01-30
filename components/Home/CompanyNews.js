@@ -15,7 +15,12 @@ export default function CompanyNews() {
       <div className="newsCont">
         <div className="bigNews">
           <div>
-            <div className="news-title">{mainNews[0].shortTitle}</div>
+            <div
+              onClick={() => router.push(`/news/${mainNews[0].shortTitle}`)}
+              className="news-title"
+            >
+              {mainNews[0].shortTitle}
+            </div>
             <div className="news-type">{mainNews[0].category}</div>
           </div>
           <img src={mainNews[0].thumbnail} className="bg" alt="big news"></img>

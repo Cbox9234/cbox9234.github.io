@@ -95,6 +95,11 @@
                 font-weight: 700;
                 color: rgba(255, 255, 255, 0.856);
                 z-index: 12;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             .news-type {
