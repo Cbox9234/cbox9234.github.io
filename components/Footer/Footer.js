@@ -86,7 +86,7 @@ export default function Footer() {
           <div className="referenceHolder">
             <div onClick={() => router.push("/terms")}>Terms of service</div>
             <div onClick={() => router.push("/privacy")}>Privacy</div>
-            <div>GDPR</div>
+            <div onClick={() => router.push("/security")}>Security</div>
           </div>
         </section>
         <section className="footerSection">
