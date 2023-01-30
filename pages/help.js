@@ -1,10 +1,10 @@
 import Head from "next/head";
-import React, { useState } from "react";
+import React from "react";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav";
+import Help from "../components/TermsOfService/Help";
 import Hero from "../components/TermsOfService/Hero";
 import Tab from "../components/TermsOfService/Tab";
-import TermsOfServiceSection from "../components/TermsOfService/TermsOfServiceSection";
 
 export default function TermsOfService() {
   return (
@@ -20,7 +20,7 @@ export default function TermsOfService() {
         <div className="mainWrapper termsofservice">
           <Hero title="Help" />
           <Tab curr="Help" />
-          <TermsOfServiceSection />
+          <Help />
           <Footer />
         </div>
       </main>
