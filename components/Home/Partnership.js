@@ -5,7 +5,9 @@ import earth from "../../res/earth.png";
 export default function Partnership() {
   return (
     <section className="aSection partnership">
-      <div className="title">Partner With LEGiON</div>
+      <div className="title">
+        <span>Partner</span> With LEGiON
+      </div>
       <div className="info">Take your comapny/project to new heights.</div>
       <button>Apply For Partnership</button>
 

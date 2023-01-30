@@ -19,7 +19,9 @@ export default function LegionExperiences() {
   const router = useRouter();
   return (
     <section id="legionExperiences" className="aSection legionexperiences">
-      <div className="title">LEGiON Experiences</div>
+      <div className="title">
+        LEGiON <span>Experiences</span>
+      </div>
       <div className="info">Quality experiences, available for everyone</div>
       <div className="slider">
         <div className="slide-track">

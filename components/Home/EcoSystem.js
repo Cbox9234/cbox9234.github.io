@@ -26,7 +26,9 @@ export default function EcoSystem() {
 
   return (
     <section id="legionExperiences" className="aSection legionEcoSystem">
-      <div className="title">The LEGiON Ecosystem</div>
+      <div className="title">
+        The <span>LEGiON</span> Ecosystem
+      </div>
       <div className="info">Join the ultimate ecosystem, built for all</div>
       <button onClick={() => router.push("/company#companyinfo")}>
         Learn More

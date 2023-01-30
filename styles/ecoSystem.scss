@@ -45,6 +45,13 @@
         font-weight: 700 !important;
         letter-spacing: 1px;
         z-index: 2;
+
+        span {
+            background: linear-gradient(to bottom right,#cde3ff,#d997ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
     }
 
     .info {

@@ -25,6 +25,13 @@
         font-size: 3rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px;
+
+        span {
+            background: linear-gradient(to bottom right,#ffcdde,#b397ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
     }
 
     .info {

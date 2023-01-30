@@ -28,6 +28,13 @@ section.legionexperiences {
         font-size: 3rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px;
+
+        span {
+            background: linear-gradient(to bottom right,#cdd2ff,#97ffb7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
     }
 
     .info {
