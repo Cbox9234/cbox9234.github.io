@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav";
 import Hero from "../components/TermsOfService/Hero";
+import Security from "../components/TermsOfService/Security";
 import Tab from "../components/TermsOfService/Tab";
-import TermsOfServiceSection from "../components/TermsOfService/TermsOfServiceSection";
 
 export default function TermsOfService() {
   return (
@@ -20,7 +20,7 @@ export default function TermsOfService() {
         <div className="mainWrapper termsofservice">
           <Hero title="Security" />
           <Tab curr="Security" />
-          <TermsOfServiceSection />
+          <Security />
           <Footer />
         </div>
       </main>
