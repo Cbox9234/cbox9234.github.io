@@ -32,11 +32,13 @@ export default function Carousel2({ title = "Software" }) {
           item.software === "Y" ? (
             <div key={index} className="card">
               <div className="topCont">
-                <img
-                  className="card-bg"
-                  src={item.wideImage}
-                  alt="gamePhoto"
-                ></img>
+                <div className="imageCont">
+                  <img
+                    className="card-bg"
+                    src={item.wideImage}
+                    alt="gamePhoto"
+                  ></img>
+                </div>
                 <div className="title-cont">
                   <img src={item.squareImage} alt="game square image"></img>
                   <div className="card-title">{item.name}</div>

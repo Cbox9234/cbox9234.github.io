@@ -80,6 +80,12 @@
       border: 1px solid var(--soft-border);
       gap: 3rem;
 
+      &:hover {
+        .card-bg {
+          transform: scale(1.05);
+        }
+      }
+
       .topCont {
         width: 100%;
         display: flex;
@@ -100,13 +106,19 @@
       //   background: var(--legion-bg-hover);
       // }
 
+      .imageCont {
+        width: 100%;
+        height: 8rem;
+        overflow: hidden;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+      }
 
       .card-bg {
         width: 100%;
         height: 8rem;
         object-fit: cover;
-        border-top-left-radius: 7px;
-        border-top-right-radius: 7px;
+        transition: transform 700ms;
       }
 
       .title-cont {
