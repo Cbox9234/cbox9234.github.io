@@ -43,7 +43,7 @@ export default function Carousel2({ title = "Software" }) {
                   <img src={item.squareImage} alt="game square image"></img>
                   <div className="card-title">{item.name}</div>
                 </div>
-                <div className="info">{item.shortDesc}</div>
+                <div className="info">{item.softwareDesc}</div>
               </div>
               <div className="bottomCont">
                 <button
