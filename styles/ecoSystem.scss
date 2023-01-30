@@ -143,6 +143,16 @@
                 color: white;
                 box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.39);
 
+                &:hover {
+                    .one {
+                        transform: scale(1.4);
+                    }
+
+                    .two {
+                        transform: scale(.7);
+                    }
+                }
+
                 .logo {
                     display: flex;
                     gap: .8rem;
@@ -204,20 +214,24 @@
 
                         .one {
                             padding-top: 9vmin;
+                            transform-origin: bottom left;
+                            transition: transform 700ms;
 
                             div {
                                 width: 6vmin;
                                 aspect-ratio: 1 / 1;
-                                background: red;
+                                background: var(--background);
                             }
                         }
 
                         .two {
+                            transition: transform 700ms;
+                            transform-origin: top right;
 
                             div {
                                 width: 8.5vmin;
                                 aspect-ratio: 1 / 1;
-                                background: black;
+                                background: var(--background);
                             }
                         }
                     }
