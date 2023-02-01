@@ -8,7 +8,7 @@ export default function Partnership() {
       <div className="title">
         <span>Partner</span> With LEGiON
       </div>
-      <div className="info">Take your comapny/project to new heights.</div>
+      <div className="info">Take your company/project to new heights.</div>
       <button>Apply For Partnership</button>
 
       <Image src={earth} alt="earth" />
