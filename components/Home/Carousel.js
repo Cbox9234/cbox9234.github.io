@@ -33,11 +33,13 @@ export default function Carousel({ title = "Featured Products" }) {
         {data.map((item, index) =>
           item.game === "Y" ? (
             <div key={index} className="card">
-              <img
-                className="card-bg"
-                src={item.wideImage}
-                alt="gamePhoto"
-              ></img>
+              <div className="imageCont">
+                <img
+                  className="card-bg"
+                  src={item.wideImage}
+                  alt="gamePhoto"
+                ></img>
+              </div>
               <div className="title-cont">
                 <img src={item.squareImage} alt="game square image"></img>
                 <div className="card-title">{item.name}</div>

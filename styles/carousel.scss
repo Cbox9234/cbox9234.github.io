@@ -78,16 +78,30 @@
 
       &:hover {
         background: var(--legion-bg-hover);
+        .card-bg {
+          transform: scale(1.05);
+        }
       }
 
-
-      .card-bg {
+      .imageCont {
         width: inherit;
         height: 8rem;
-        object-fit: cover;
+        overflow: hidden;
         border-top-left-radius: 7px;
         border-top-right-radius: 7px;
+
+        .card-bg {
+          width: inherit;
+          height: 8rem;
+          object-fit: cover;
+          border-top-left-radius: 7px;
+          border-top-right-radius: 7px;
+          transition: transform 700ms;
+        }
       }
+
+
+      
 
       .title-cont {
         display: flex;
