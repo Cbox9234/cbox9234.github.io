@@ -2,7 +2,7 @@
 import { useMemo } from "react";
 import data from "../../res/searchData.json";
 
-export default function Carousel2({ title = "Software" }) {
+export default function Carousel2({ title = "Software Products" }) {
   const handleClick = (url) => {
     const elem = document.createElement("a");
     elem.href = url;
