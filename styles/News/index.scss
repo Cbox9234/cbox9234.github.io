@@ -30,7 +30,7 @@ section.newsHero {
     &::before {
         position: absolute;
         content: '';
-        background: white;
+        background: var(--background);
         inset: 0;
         width: 100vw;
         height: 50%;
