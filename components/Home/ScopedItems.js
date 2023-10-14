@@ -7,12 +7,12 @@ const getGameByName = (gameName) => {
 
 const scopedItemsData = [
   getGameByName("Plundur.io"),
-  getGameByName("Survival"),
+  getGameByName("FoodStars.io"),
   getGameByName("Pristis"),
   getGameByName("Park Game"),
   getGameByName("The Seas"),
   getGameByName("Build Survival"),
-  getGameByName("Snow Blast"),
+  getGameByName("FPS Game"),
 ];
 
 const handleClick = (url) => {
@@ -30,7 +30,7 @@ export default function ScopedItems() {
           <div key={index} className="scopedItem">
             <img
               src={
-                item.name === "Snow Blast" ? item.squareImage : item.wideImage
+                item.name === "FPS Game" ? item.squareImage : item.wideImage
               }
               alt="cover"
             />

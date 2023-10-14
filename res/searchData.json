@@ -32,17 +32,17 @@
         "softwareDesc": "blank"
     },
     {
-        "name": "Survival",
-        "link": "blank",
-        "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575644476297277/3.png?width=663&height=663",
-        "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580761472643153/7.png",
+        "name": "FoodStars.io",
+        "link": "https://foodstars.io/",
+        "squareImage": "https://cdn.discordapp.com/attachments/1097110860297674752/1162816070017634435/feature-biteroyale.png?ex=653d4fdb&is=652adadb&hm=10a771755a14de195e555b364f5e400e9fff3b73fe18ad9c48dbbe6771629fb5&",
+        "wideImage": "https://cdn.discordapp.com/attachments/1097110860297674752/1162816070017634435/feature-biteroyale.png?ex=653d4fdb&is=652adadb&hm=10a771755a14de195e555b364f5e400e9fff3b73fe18ad9c48dbbe6771629fb5&",
         "superWideImage": "",
         "game": "Y",
         "tallImage": "",
         "shortDesc": "3D Multiplayer Survival/Tycoon Game",
         "ID": "570",
-        "comingSoon": "Coming March 2023",
-        "navDesc": "Coming March 2023",
+        "comingSoon": "N",
+        "navDesc": "Survival Game",
         "moonDesc": "blank",
         "software": "N",
         "softwareDesc": "blank"
@@ -81,7 +81,7 @@
         "softwareDesc": "blank"
     },
     {
-        "name": "Snow Blast",
+        "name": "FPS Game",
         "link": "https://snowblast.netlify.app/",
         "squareImage": "https://media.discordapp.net/attachments/1063575553610883182/1063575681738477698/10.png?width=574&height=574",
         "wideImage": "https://media.discordapp.net/attachments/1063575553610883182/1063580752735895663/6.png",
