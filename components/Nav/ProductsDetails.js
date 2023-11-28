@@ -18,7 +18,7 @@ const legionEcoSystem = [
 ];
 
 const featuredGames = [
-  getGameByName("Pristis"),
+  getGameByName("Kour.io"),
   getGameByName("Build Survival"),
   getGameByName("Desert Dunes"),
 ];
