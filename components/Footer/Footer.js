@@ -50,7 +50,12 @@ export default function Footer() {
           >
             Contact
           </button>
-          <button className="partnership-btn">Partnership</button>
+          <button
+            className="partnership-btn"
+            onClick={() => router.push("/partnership")}
+          >
+            Partnership
+          </button>
         </div>
       </div>
       <div className="footerMain">
