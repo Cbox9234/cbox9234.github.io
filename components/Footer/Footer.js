@@ -58,7 +58,14 @@ export default function Footer() {
           <div className="header">Social Media</div>
           <div className="socialMedia">
             <i className="ri-twitter-fill twitter icon"></i>
-            <i className="ri-youtube-fill youtube icon"></i>
+            <i
+              className="ri-youtube-fill youtube icon"
+              onClick={() =>
+                handleClick(
+                  "https://youtube.com/@legion-platforms?si=d06ilR8CiDkNJsQd"
+                )
+              }
+            ></i>
             <i className="ri-discord-fill discord icon"></i>
           </div>
           <div className="mainLogoCont">
