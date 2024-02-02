@@ -121,7 +121,7 @@ export default function Footer() {
         </section>
       </div>
       <div className="footerEnd">
-        2023 LEGiON Platforms. All Rights Reserved.
+        2024 LEGiON Platforms. All Rights Reserved.
       </div>
     </footer>
   );
