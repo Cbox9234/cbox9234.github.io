@@ -50,8 +50,8 @@
   {
     "name": "Kour.io",
     "link": "https://Kour.io",
-    "squareImage": "https://cdn.discordapp.com/attachments/886692415572946984/1177158041041379419/render6.png?ex=65717cdb&is=655f07db&hm=e307b3ce311e061fa985385d8dcd22d4fe92c50fa2abe43cc6f0673a6c8c8ff3&",
-    "wideImage": "https://cdn.discordapp.com/attachments/886692415572946984/1177158041041379419/render6.png?ex=65717cdb&is=655f07db&hm=e307b3ce311e061fa985385d8dcd22d4fe92c50fa2abe43cc6f0673a6c8c8ff3&",
+    "squareImage": "/res/games/kour_wide.png",
+    "wideImage": "/res/games/kour_wide.png",
     "superWideImage": "",
     "game": "Y",
     "tallImage": "",

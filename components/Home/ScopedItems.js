@@ -6,9 +6,9 @@ const getGameByName = (gameName) => {
 };
 
 const scopedItemsData = [
-  getGameByName("Plundur.io"),
-  getGameByName("FoodStars.io"),
   getGameByName("Kour.io"),
+  getGameByName("FoodStars.io"),
+  getGameByName("Plundur.io"),
   getGameByName("Park Game"),
   getGameByName("The Seas"),
   getGameByName("Build Survival"),
