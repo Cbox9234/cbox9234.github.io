@@ -12,7 +12,7 @@ export default function Contact() {
       </div>
       <button onClick={() => router.push("/contact")}>Contact Us</button>
       <video
-        src="https://cdn.discordapp.com/attachments/886692415572946984/1061280539467853854/bg.mp4"
+        src="/res/ocean.mp4"
         autoPlay
         muted
         loop
