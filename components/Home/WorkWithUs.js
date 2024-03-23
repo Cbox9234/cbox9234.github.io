@@ -13,7 +13,7 @@ export default function WorkWithUs() {
       <div
         className="bg"
         style={{
-          backgroundImage: `url("https://cdn.discordapp.com/attachments/886692415572946984/1062810800533807255/image.png")`,
+          backgroundImage: `url("/res/cover_3_ppl.png")`,
         }}
       ></div>
     </section>

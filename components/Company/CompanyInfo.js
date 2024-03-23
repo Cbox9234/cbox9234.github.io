@@ -6,7 +6,7 @@ export default function CompanyInfo() {
       <div className="infoSet">
         <div
           style={{
-            backgroundImage: `url('https://cdn.discordapp.com/attachments/886692415572946984/1069213342268395550/img.png')`,
+            backgroundImage: `url('/res/company_page_sub_section_hero.png')`,
           }}
           className="rCont"
         ></div>
@@ -24,7 +24,7 @@ export default function CompanyInfo() {
       <div className="infoSet">
         <div
           style={{
-            backgroundImage: `url('https://media.discordapp.net/attachments/1063575553610883182/1063580761841729646/8.png')`,
+            backgroundImage: `url('/res/company_page_sub_section_hero_2.png')`,
           }}
           className="rCont"
         ></div>

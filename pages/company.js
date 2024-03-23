@@ -39,7 +39,7 @@ export default function Home() {
       <main>
         <div className="companyHeroBg">
           <img
-            src="https://cdn.discordapp.com/attachments/886692415572946984/1069091357576134687/ASD.png"
+            src="/res/company_page_hero.png"
             alt="logo"
           />
         </div>
