@@ -9,9 +9,9 @@ const getGameByName = (gameName) => {
 };
 
 const popularGames = [
+  getGameByName("Kour.io"),
   getGameByName("Plundur.io"),
-  getGameByName("Plundur.io Social"),
-  getGameByName("CrazyRun.io"),
+  getGameByName("FoodStars.io"),
   // getGameByName("FPS Game"),
 ];
 
