@@ -10,7 +10,7 @@ import CompanyNews from "../components/Company/CompanyNews";
 import Users from "../components/Home/Users";
 import Footer from "../components/Footer/Footer";
 import Nav from "../components/Nav";
-import WorkWithUs from "../components/Home/WorkWithUs";
+import WorkWithUs from "../components/Home/JoinOurTeam";
 import { useRouter } from "next/router";
 import CompanyInfo from "../components/Company/CompanyInfo";
 import news from "../res/news.json";

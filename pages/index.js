@@ -19,7 +19,7 @@ import Footer from "../components/Footer/Footer";
 import LegionExperiences from "../components/Home/LegionExperiences";
 import ScopedItems from "../components/Home/ScopedItems";
 import Nav from "../components/Nav";
-import WorkWithUs from "../components/Home/WorkWithUs";
+import WorkWithUs from "../components/Home/JoinOurTeam";
 import Company from "../components/Home/Company";
 import { useRouter } from "next/router";
 import EcoSystem from "../components/Home/EcoSystem";
