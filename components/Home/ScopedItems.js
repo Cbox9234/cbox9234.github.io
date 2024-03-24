@@ -9,10 +9,10 @@ const scopedItemsData = [
   getGameByName("Kour.io"),
   getGameByName("FoodStars.io"),
   getGameByName("Plundur.io"),
-  getGameByName("Park Game"),
+  getGameByName("2v2.io"),
   getGameByName("The Seas"),
   getGameByName("Build Survival"),
-  getGameByName("FPS Game"),
+  getGameByName("Snow Wars"),
 ];
 
 const handleClick = (url) => {

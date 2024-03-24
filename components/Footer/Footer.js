@@ -12,7 +12,7 @@ const popularGames = [
   getGameByName("Plundur.io"),
   getGameByName("Plundur.io Social"),
   getGameByName("CrazyRun.io"),
-  getGameByName("FPS Game"),
+  // getGameByName("FPS Game"),
 ];
 
 const legionEcoSystem = [
