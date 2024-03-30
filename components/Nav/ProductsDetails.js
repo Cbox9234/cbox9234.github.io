@@ -6,8 +6,9 @@ const getGameByName = (gameName) => {
 };
 
 const popularGames = [
+  getGameByName("Kour.io"),
+  getGameByName("FoodStars.io"),
   getGameByName("Plundur.io"),
-  getGameByName("CrazyRun.io"),
   // getGameByName("FPS Game"),
 ];
 
@@ -18,13 +19,13 @@ const legionEcoSystem = [
 ];
 
 const featuredGames = [
-  getGameByName("Kour.io"),
-  getGameByName("Build Survival"),
+  getGameByName("2v2.io"),
+  // getGameByName("Build Survival"),
   // getGameByName("Desert Dunes"),
 ];
 
 const comingSoon = [
-  getGameByName("FoodStars.io"),
+  getGameByName("War FPS"),
   getGameByName("Build Survival"),
   getGameByName("The Seas"),
 ];
