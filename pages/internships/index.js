@@ -20,7 +20,7 @@ export default function Policies() {
           <section className="aSection ourCompany">
             <div className="mainCont">
               <div className="message">
-                Do you want to join our team as an intern? Email us and send us your resume, and we'll get back to you in 2-3 business days.
+                Do you want to join our team as an intern? Email us and send us your resume, and we&apos;ll get back to you in 2-3 business days.
                 <br></br>
                 <br></br>
                 Email us at legionplatforms@gmail.com
