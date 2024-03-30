@@ -64,6 +64,32 @@ section.newsHero {
         margin-bottom: .5rem;
     }
 
+    .mode-list {
+        display: flex;
+        gap: 1rem;
+
+        *:not(.copyToClipboard) {
+            width: 2.5rem;
+            height: 2.5rem;
+            
+            circle{ 
+                fill: transparent;
+            }
+        }
+
+        .copyToClipboard {
+            width: 2.5rem;
+            height: 2.5rem;
+            font-size: 1.6rem;
+            line-height: 0;
+            background: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 100;
+        }
+    }
+
     .info {
         color: rgb(240, 240, 240);
         font-size: 1.3rem;
@@ -159,6 +185,21 @@ section.newsHero {
             text-align: left;
             opacity: .7;
             margin-bottom: .1rem !important;
+        }
+
+        .mode-list {
+            gap: .5rem;
+    
+            *:not(.copyToClipboard) {
+                width: 2rem;
+                height: 2rem;
+            }
+    
+            .copyToClipboard {
+                width: 2rem;
+                height: 2rem;
+                font-size: 1.3rem;
+            }
         }
     
         .cover {
