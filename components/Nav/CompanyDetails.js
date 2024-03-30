@@ -20,6 +20,7 @@ const data = [
       },
       {
         title: "Internships",
+        link: "/internships",
       },
     ],
   },

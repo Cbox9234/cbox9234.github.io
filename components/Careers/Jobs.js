@@ -3,7 +3,7 @@ import jobs from "../../res/jobs.json";
 
 export default function Jobs() {
   return (
-    <section className="aSection jobs">
+    <section className="aSection jobs" id="jobsection">
       <div className="mainCont">
         <div className="title">Open Positions</div>
         <div className="jobs">
