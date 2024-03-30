@@ -3,7 +3,7 @@ import Image from "next/image";
 import bg from "../res/heroBG.png";
 import logo from "../res/logo.png";
 import image1 from "../res/g1.png";
-import image2 from "../res/g2.png";
+import image2 from "../res/g2_new.png";
 import image3 from "../res/g3.png";
 import image4 from "../res/g4.png";
 import image5 from "../res/g5.png";
