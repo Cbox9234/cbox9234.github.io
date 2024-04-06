@@ -48,9 +48,9 @@ export default function EcoSystem() {
         The <span>LEGiON</span> Ecosystem
       </div>
       <div className="info">Join the ultimate ecosystem, built for all</div>
-      <button onClick={() => router.push("/company#companyinfo")}>
+      {/* <button onClick={() => router.push("/company#companyinfo")}>
         Learn More
-      </button>
+      </button> */}
 
       <div
         // style={{
