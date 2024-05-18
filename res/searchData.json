@@ -114,6 +114,38 @@
     "softwareDesc": "blank"
   },
   {
+    "name": "KourStrike.io",
+    "link": "blank",
+    "squareImage": "/res/scopeditems/kourstrike.io.png",
+    "wideImage": "/res/scopeditems/kourstrike.io.png",
+    "superWideImage": "",
+    "game": "Y",
+    "tallImage": "",
+    "shortDesc": "Search and Destroy FPS Game",
+    "ID": "060",
+    "comingSoon": "Coming Soon",
+    "navDesc": "Coming Soon",
+    "moonDesc": "blank",
+    "software": "N",
+    "softwareDesc": "blank"
+  },
+  {
+    "name": "KourZone.io",
+    "link": "blank",
+    "squareImage": "/res/scopeditems/kourzone.io.png",
+    "wideImage": "/res/scopeditems/kourzone.io.png",
+    "superWideImage": "",
+    "game": "Y",
+    "tallImage": "",
+    "shortDesc": "Multiplayer 3D Battle Royale Game",
+    "ID": "060",
+    "comingSoon": "Coming Soon",
+    "navDesc": "Coming Soon",
+    "moonDesc": "blank",
+    "software": "N",
+    "softwareDesc": "blank"
+  },
+  {
     "name": "Build Survival",
     "link": "blank",
     "squareImage": "/res/scopeditems/buildsurvival.png",

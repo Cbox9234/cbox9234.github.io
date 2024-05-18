@@ -10,7 +10,7 @@ const scopedItemsData = [
   getGameByName("FoodStars.io"),
   getGameByName("Plundur.io"),
   getGameByName("2v2.io"),
-  getGameByName("The Seas"),
+  getGameByName("KourStrike.io"),
   getGameByName("Build Survival"),
   getGameByName("Snow Wars"),
 ];
