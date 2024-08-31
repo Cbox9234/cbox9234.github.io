@@ -49,7 +49,7 @@ export default function Home() {
             <div className="lCont">
               <div className="title">Experiences that matter.</div>
               <div className="subTitle">
-                We are building the next generation of <br></br> web/mobile games and technology
+                We create games and experiences that <br></br> are loved by 4 million users worldwide.
               </div>
               <div className="heroBtnSet">
                 <button onClick={() => gotoExplore()} className="heroBtn">
