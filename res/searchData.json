@@ -115,7 +115,7 @@
   },
   {
     "name": "KourStrike.io",
-    "link": "blank",
+    "link": "https://kourstrike.io/",
     "squareImage": "/res/scopeditems/kourstrike.io.png",
     "wideImage": "/res/scopeditems/kourstrike.io.png",
     "superWideImage": "",
@@ -123,7 +123,7 @@
     "tallImage": "",
     "shortDesc": "Search and Destroy FPS Game",
     "ID": "060",
-    "comingSoon": "Coming Soon",
+    "comingSoon": "N",
     "navDesc": "Coming Soon",
     "moonDesc": "blank",
     "software": "N",
