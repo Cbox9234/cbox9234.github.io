@@ -164,8 +164,8 @@
   {
     "name": "War FPS",
     "link": "blank",
-    "squareImage": "https://media.discordapp.net/attachments/727068553873850398/1221382324193857587/16.png?ex=66125fee&is=65ffeaee&hm=606977f05f9ed9a3c1532e60bcdbb8268f4779a5dce0b947a9c979c048ccc3ed&=&format=webp&quality=lossless&width=1482&height=834",
-    "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1221382324193857587/16.png?ex=66125fee&is=65ffeaee&hm=606977f05f9ed9a3c1532e60bcdbb8268f4779a5dce0b947a9c979c048ccc3ed&=&format=webp&quality=lossless&width=1482&height=834",
+    "squareImage": "/res/scopeditems/warFps.png",
+    "wideImage": "/res/scopeditems/warFps.png",
     "superWideImage": "",
     "game": "Y",
     "tallImage": "",
@@ -436,8 +436,8 @@
   {
     "name": "Park Game",
     "link": "blank",
-    "squareImage": "https://media.discordapp.net/attachments/727068553873850398/1221405028053680158/Untitled_design_30.png?ex=66127513&is=66000013&hm=7257d1071d847d2814851ca49ecdb718a6010abb69d7d0c9453ccd3fd9b5eb3e&=&format=webp&quality=lossless&width=768&height=768",
-    "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1221403912771469372/LEGiON_Presentation.png?ex=66127409&is=65ffff09&hm=90b2d0252c05da40edeabcb6639ce754fd23193bdef54687208fd04184c8c832&=&format=webp&quality=lossless&width=1482&height=834",
+    "squareImage": "/res/scopeditems/ParkGame.png",
+    "wideImage": "/res/scopeditems/ParkGame.png",
     "superWideImage": "",
     "game": "Y",
     "tallImage": "",
@@ -581,8 +581,8 @@
   {
     "name": "CrazyRun.io",
     "link": "https://crazyrun.netlify.app/",
-    "squareImage": "https://media.discordapp.net/attachments/727068553873850398/1221382321903501403/12.png?ex=66125fed&is=65ffeaed&hm=1016eee4ed9313c516bd439c2b82abf24f6b626923e5031295f5f476aaa45b8d&=&format=webp&quality=lossless&width=1482&height=834",
-    "wideImage": "https://media.discordapp.net/attachments/727068553873850398/1221382321903501403/12.png?ex=66125fed&is=65ffeaed&hm=1016eee4ed9313c516bd439c2b82abf24f6b626923e5031295f5f476aaa45b8d&=&format=webp&quality=lossless&width=1482&height=834",
+    "squareImage": "/res/scopeditems/CrazyRun.io.png",
+    "wideImage": "/res/scopeditems/CrazyRun.io.png",
     "superWideImage": "",
     "game": "Y",
     "tallImage": "",
