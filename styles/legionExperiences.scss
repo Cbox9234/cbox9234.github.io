@@ -196,7 +196,7 @@ section.legionexperiences {
         // Animation
         @keyframes scroll {
             0% { transform: translateX(0); }
-            100% { transform: translateX(calc(-13rem * 6 + 5.5rem))}
+            100% { transform: translateX(calc(-15rem * 6 + 5.5rem))}
         }
         
         
@@ -205,16 +205,23 @@ section.legionexperiences {
             width: calc(100% - 1rem);
             margin-left: .5rem;
             margin-right: .5rem;
-            height: 6rem;
+            height: 7.5rem;
+
             
             .slide-track { 
-                width: calc(12rem * 12);
-                height: 9rem;
+                width: calc(14rem * 12);
+                height: 7.5rem;
+
             }
             
             .slide {
-                width: 12rem;
-                height: 6rem;
+                width: 14rem;
+                height: 7.5rem;
+
+
+                img {
+                    height: 7.5rem;
+                }
             }
         }
     
