@@ -10,8 +10,8 @@ export default function TermsOfService() {
   return (
     <>
       <Head>
-        <title>Legion Platforms - Security</title>
-        <meta name="description" content="Legion Platforms" />
+        <title>LegionGames.io - Security</title>
+        <meta name="description" content="LegionGames.io" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

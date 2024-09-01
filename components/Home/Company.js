@@ -13,7 +13,7 @@ export default function Company({ careerMode = false }) {
       <div className="mainCont">
         <div className="lCont">
           {!careerMode && (
-            <div className="sub-title">About LEGiON Platforms</div>
+            <div className="sub-title">About LegionGames.io</div>
           )}
           <div className="title">
             We are building<br></br>new worlds.

@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Legion Platforms</title>
+        <title>LegionGames.io</title>
         <meta name="description" content="Legion Platforms" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="mainWrapper">
           <section className="companyHero">
             <div className="lCont">
-              <div className="sub-title">About LEGiON Platforms</div>
+              <div className="sub-title">About LegionGames.io</div>
               <div className="title">
                 We are building<br></br>new worlds.
               </div>

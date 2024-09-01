@@ -8,8 +8,8 @@ export default function Policies() {
   return (
     <>
       <Head>
-        <title>Legion Platforms - Partnership</title>
-        <meta name="description" content="Legion Platforms" />
+        <title>LegionGames.io - Partnership</title>
+        <meta name="description" content="LegionGames.io" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

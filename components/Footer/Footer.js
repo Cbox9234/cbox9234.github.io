@@ -36,7 +36,7 @@ export default function Footer() {
         <div className="lCont">
           <div className="logoCont">
             <Image src={logo} alt="logo" />
-            LEGiON Platforms
+            LegionGames.io
           </div>
           <div className="footerHeroTitle">Experiences that matter.</div>
           <div className="location">
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
           <div className="mainLogoCont">
             <Image src={logo} alt="logo" />
-            <div>LEGiON Platforms</div>
+            <div>Legion Games.io</div>
           </div>
         </section>
         <section className="footerSection">
@@ -126,7 +126,7 @@ export default function Footer() {
         </section>
       </div>
       <div className="footerEnd">
-        2024 LEGiON Platforms. All Rights Reserved.
+        2024 LegionGames.io - All Rights Reserved.
       </div>
     </footer>
   );
