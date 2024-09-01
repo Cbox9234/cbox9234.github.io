@@ -595,5 +595,21 @@
     "softwareDesc": "blank",
     "navDescBak": "Runner Game",
     "navDescBAK": ""
+  },
+  {
+    "name": "Overtide.io",
+    "link": "https://overtide.io/",
+    "squareImage": "/res/scopeditems/overtide.io.png",
+    "wideImage": "/res/scopeditems/overtide.io.png",
+    "superWideImage": "",
+    "game": "Y",
+    "tallImage": "",
+    "shortDesc": "3D Multiplayer FPS Game",
+    "ID": "826",
+    "comingSoon": "N",
+    "navDesc": "blank",
+    "moonDesc": "blank",
+    "software": "N",
+    "softwareDesc": "blank"
   }
 ]
