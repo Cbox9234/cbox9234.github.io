@@ -11,8 +11,8 @@ const scopedItemsData = [
   getGameByName("Plundur.io"),
   getGameByName("2v2.io"),
   getGameByName("KourStrike.io"),
-  getGameByName("Build Survival"),
-  getGameByName("Snow Wars"),
+  getGameByName("Overtide.io"),
+  getGameByName("KourZone.io"),
 ];
 
 const handleClick = (url) => {
