@@ -20,13 +20,12 @@ const legionEcoSystem = [
 
 const featuredGames = [
   getGameByName("2v2.io"),
-  // getGameByName("Build Survival"),
+  getGameByName("Poxel.io"),
   // getGameByName("Desert Dunes"),
 ];
 
 const comingSoon = [
   getGameByName("War FPS"),
-  getGameByName("Build Survival"),
   getGameByName("The Seas"),
 ];
 
