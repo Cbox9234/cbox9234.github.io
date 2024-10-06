@@ -10,7 +10,9 @@ section.gamesList {
     .scopedItems {
         display: grid;
         width: 100%;
-        height: 80rem;
+        // height: 80rem;
+        height: auto;
+        margin-bottom: 2rem;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 1rem;
@@ -18,7 +20,8 @@ section.gamesList {
         .scopedItem {
             position: relative;
             width: 100%;
-            height: 100%;
+            // height: 100%;
+            height: 19rem;
             border: 7px solid var(--background2);
             background: var(--background);
             border-radius: 10px;
