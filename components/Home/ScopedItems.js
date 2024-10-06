@@ -9,7 +9,7 @@ const scopedItemsData = [
   getGameByName("Kour.io"),
   getGameByName("FoodStars.io"),
   getGameByName("Plundur.io"),
-  getGameByName("2v2.io"),
+  getGameByName("Poxel.io"),
   getGameByName("KourStrike.io"),
   getGameByName("Overtide.io"),
   getGameByName("KourZone.io"),
