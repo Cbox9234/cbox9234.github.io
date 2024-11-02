@@ -14,7 +14,12 @@ const useFocus = () => {
 export default function Search({
   className,
   onInitialMode = false,
-  onAction = () => {},
+  onAction = (url) => {
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.click();
+  },
 }) {
   const [searchStr, setSearchStr] = useState("");
   const [searchMode, setSearchMode] = useState(() => onInitialMode);
@@ -46,7 +51,7 @@ export default function Search({
   const handleItemClick = (url) => () => {
     setSearchMode(false);
     setSearchStr("");
-    onAction();
+    onAction(url);
   };
 
   return (
