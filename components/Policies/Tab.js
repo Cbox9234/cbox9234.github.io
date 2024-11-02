@@ -7,8 +7,8 @@ const data = [
     link: "/policies",
   },
   {
-    title: "Inclusion",
-    link: "/inclusion",
+    title: "Innovation",
+    link: "/innovation",
   },
   {
     title: "Accessibility",

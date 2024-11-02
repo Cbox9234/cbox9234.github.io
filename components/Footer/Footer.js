@@ -113,7 +113,7 @@ export default function Footer() {
               Accessibility
             </div>
             <div onClick={() => router.push("/policies")}>Ethics Policy</div>
-            <div onClick={() => router.push("/inclusion")}>Inclusion</div>
+            <div onClick={() => router.push("/innovation")}>Innovation</div>
           </div>
         </section>
         <section className="footerSection">
