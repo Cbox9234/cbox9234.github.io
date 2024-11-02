@@ -28,9 +28,9 @@ const images = [
   "/res/ecosystem/eco_11.png",
   "/res/ecosystem/eco_12.png",
   "/res/ecosystem/eco_13.png",
-]
+];
 
-const legionLogo = '/res/logo.png'
+const legionLogo = "/res/logo.png";
 
 export default function EcoSystem() {
   const handleClick = (url) => {
@@ -61,10 +61,7 @@ export default function EcoSystem() {
         <div className="cards">
           <div className="card">
             <div className="logo" onClick={() => router.push("/")}>
-              <img
-                alt="Logo"
-                src={legionLogo}
-              />
+              <img alt="Logo" src={legionLogo} />
               LEGiON Portal
             </div>
             <div className="content">
@@ -72,7 +69,9 @@ export default function EcoSystem() {
             </div>
             <div className="last-set">
               <button
-                onClick={() => handleClick("https://legionportal.netlify.app/")}
+                onClick={() =>
+                  handleClick("https://legionplatforms.com/portal")
+                }
               >
                 Explore
               </button>
@@ -87,7 +86,7 @@ export default function EcoSystem() {
                 <div className="image two">
                   <div
                     style={{
-                      backgroundImage:`url(${images[1]})`,
+                      backgroundImage: `url(${images[1]})`,
                     }}
                   ></div>
                 </div>
@@ -96,10 +95,7 @@ export default function EcoSystem() {
           </div>
           <div className="card">
             <div className="logo" onClick={() => router.push("/")}>
-              <img
-                alt="Logo"
-                src={legionLogo}
-              />
+              <img alt="Logo" src={legionLogo} />
               LEGiON Distribution
             </div>
             <div className="content">
@@ -108,7 +104,7 @@ export default function EcoSystem() {
             <div className="last-set">
               <button
                 onClick={() =>
-                  handleClick("https://legiondistribution.netlify.app/")
+                  handleClick("https://legionplatforms.com/distribution/")
                 }
               >
                 Explore
@@ -133,10 +129,7 @@ export default function EcoSystem() {
           </div>
           <div className="card">
             <div className="logo" onClick={() => router.push("/")}>
-              <img
-                alt="Logo"
-                src={legionLogo}
-              />
+              <img alt="Logo" src={legionLogo} />
               LEGiON Publishing
             </div>
             <div className="content">
@@ -145,7 +138,7 @@ export default function EcoSystem() {
             <div className="last-set">
               <button
                 onClick={() =>
-                  handleClick("https://legionpublishing.netlify.app/")
+                  handleClick("https://legionplatforms.com/publishing")
                 }
               >
                 Explore
@@ -172,17 +165,21 @@ export default function EcoSystem() {
         <div className="cards">
           <div className="card">
             <div className="logo" onClick={() => router.push("/")}>
-              <img
-                alt="Logo"
-                src={legionLogo}
-              />
+              <img alt="Logo" src={legionLogo} />
               LEGiON Advertising
             </div>
             <div className="content">
               Advertise your brand<br></br> to millions
             </div>
             <div className="last-set">
-              <button className="disabled">Coming Soon</button>
+              {/* <button className="disabled">Coming Soon</button> */}
+              <button
+                onClick={() =>
+                  handleClick("https://legionplatforms.com/advertising")
+                }
+              >
+                Explore
+              </button>
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -203,10 +200,7 @@ export default function EcoSystem() {
           </div>
           <div className="card">
             <div className="logo" onClick={() => router.push("/")}>
-              <img
-                alt="Logo"
-                src={legionLogo}
-              />
+              <img alt="Logo" src={legionLogo} />
               LEGiON White Label
             </div>
             <div className="content">
@@ -235,10 +229,7 @@ export default function EcoSystem() {
 
           <div className="card">
             <div className="logo" onClick={() => router.push("/")}>
-              <img
-                alt="Logo"
-                src={legionLogo}
-              />
+              <img alt="Logo" src={legionLogo} />
               LEGiON Database
             </div>
             <div className="content">
