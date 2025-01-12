@@ -68,13 +68,14 @@ export default function EcoSystem() {
               Play thousands of <br></br>games within clicks
             </div>
             <div className="last-set">
-              <button
+              <button className="disabled">Coming Soon</button>
+              {/* <button
                 onClick={() =>
                   handleClick("https://legionplatforms.com/portal")
                 }
               >
                 Explore
-              </button>
+              </button> */}
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -102,13 +103,14 @@ export default function EcoSystem() {
               Premium games for<br></br> your products
             </div>
             <div className="last-set">
-              <button
+              <button className="disabled">Coming Soon</button>
+              {/* <button
                 onClick={() =>
                   handleClick("https://legionplatforms.com/distribution/")
                 }
               >
                 Explore
-              </button>
+              </button> */}
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -136,13 +138,14 @@ export default function EcoSystem() {
               Bring your game or<br></br> project to millions
             </div>
             <div className="last-set">
-              <button
+              <button className="disabled">Coming Soon</button>
+              {/* <button
                 onClick={() =>
                   handleClick("https://legionplatforms.com/publishing")
                 }
               >
                 Explore
-              </button>
+              </button> */}
               <div className="rCont">
                 <div className="image one">
                   <div
@@ -172,14 +175,14 @@ export default function EcoSystem() {
               Advertise your brand<br></br> to millions
             </div>
             <div className="last-set">
-              {/* <button className="disabled">Coming Soon</button> */}
-              <button
+              <button className="disabled">Coming Soon</button>
+              {/* <button
                 onClick={() =>
                   handleClick("https://legionplatforms.com/advertising")
                 }
               >
                 Explore
-              </button>
+              </button> */}
               <div className="rCont">
                 <div className="image one">
                   <div
