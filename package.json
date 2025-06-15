@@ -9,7 +9,9 @@
     "lint": "next lint",
     "nbuild": "netlify build && netlify deploy --prod",
     "deploy": "netlify deploy --prod",
-    "netlify": "netlify link"
+    "netlify": "netlify link",
+    "export": "next export",
+    "static": "next build && next export"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
@@ -23,7 +25,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.29.4",
-    "netlify-cli": "^17.34.3",
+    "netlify-cli": "^21.6.0",
     "sass": "^1.57.1"
   }
 }
