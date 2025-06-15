@@ -2,6 +2,7 @@
   "name": "legiongames.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cbox9234.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +12,8 @@
     "deploy": "netlify deploy --prod",
     "netlify": "netlify link",
     "export": "next export",
-    "static": "next build && next export"
+    "static": "next build && next export",
+    "ghdeploy": "next build && echo > out/.nojekyll && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.29.4",
+    "gh-pages": "^6.3.0",
     "netlify-cli": "^21.6.0",
     "sass": "^1.57.1"
   }
