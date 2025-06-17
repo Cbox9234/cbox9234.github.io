@@ -41,8 +41,10 @@ export default function Search({
       return;
     }
 
-    const f1 = searchData.filter((item) =>
-      item.name.toLowerCase().includes(nSearch)
+    const f1 = searchData.filter(
+      (item) =>
+        item.name.toLowerCase().includes(nSearch) &&
+        item.comingSoon != "Coming Soon"
     );
 
     setResults(f1);
