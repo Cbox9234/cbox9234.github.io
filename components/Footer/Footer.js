@@ -92,7 +92,13 @@ export default function Footer() {
           <div className="header">Platforms</div>
           <div className="referenceHolder">
             {legionEcoSystem.map((item, index) => (
-              <div onClick={() => handleClick(item.link)} key={index}>
+              <div
+                onClick={() =>
+                  // handleClick(item.link)
+                  {}
+                }
+                key={index}
+              >
                 {item.name}
               </div>
             ))}
