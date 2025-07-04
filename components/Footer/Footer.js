@@ -132,7 +132,7 @@ export default function Footer() {
         </section>
       </div>
       <div className="footerEnd">
-        2024 LegionGames.io - All Rights Reserved.
+        2025 LegionGames.io - All Rights Reserved.
       </div>
     </footer>
   );
