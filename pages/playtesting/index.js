@@ -24,7 +24,7 @@ export default function Policies() {
                 Products?
                 <br></br>
                 <br></br>
-                Email us at legionplatforms@gmail.com
+                Email us at info@legiongames.io
               </div>
             </div>
           </section>
