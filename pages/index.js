@@ -24,6 +24,7 @@ import Company from "../components/Home/Company";
 import { useRouter } from "next/router";
 import EcoSystem from "../components/Home/EcoSystem";
 import Carousel2 from "../components/Home/Carousel2";
+import baseConfig from '../res/baseConfig.json'
 
 export default function Home() {
   const router = useRouter();
@@ -49,8 +50,8 @@ export default function Home() {
             <div className="lCont">
               <div className="title">Experiences that matter.</div>
               <div className="subTitle">
-                We create games and experiences that <br></br> are loved by 16
-                million users worldwide.
+                We create games and experiences that <br></br> are loved by {baseConfig.users}
+                {" " + baseConfig.user_count_unit} users worldwide.
               </div>
               <div className="heroBtnSet">
                 <button onClick={() => gotoExplore()} className="heroBtn">
