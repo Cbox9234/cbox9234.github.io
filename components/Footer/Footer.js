@@ -3,6 +3,7 @@ import React from "react";
 import logo from "../../res/logo.png";
 import { useRouter } from "next/router";
 import data from "../../res/searchData.json";
+import baseConfig from "../../res/baseConfig.json"
 
 const getGameByName = (gameName) => {
   return data.find((item) => item.name === gameName);
@@ -132,7 +133,7 @@ export default function Footer() {
         </section>
       </div>
       <div className="footerEnd">
-        2025 LegionGames.io - All Rights Reserved.
+        {baseConfig.service_till} LegionGames.io - All Rights Reserved.
       </div>
     </footer>
   );
