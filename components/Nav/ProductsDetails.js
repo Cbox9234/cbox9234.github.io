@@ -30,18 +30,22 @@ const mainData = [
   {
     title: "Popular Games",
     items: popularGames,
+    nonclickable: false,
   },
   {
     title: "LEGiON Ecosystem",
     items: legionEcoSystem,
+    nonclickable: true,
   },
   {
     title: "Featured Games",
     items: featuredGames,
+    nonclickable: false,
   },
   {
     title: "Coming Soon",
     items: comingSoon,
+    nonclickable: false,
   },
 ];
 
@@ -71,7 +75,7 @@ export default function ProductsDetails() {
                   <div className="infoCont">
                     <div
                       onClick={
-                        item.title !== "Coming Soon"
+                        item.title !== "Coming Soon" && !item.nonclickable
                           ? () => handleClick(currItem.link)
                           : () => {}
                       }
